@@ -19,6 +19,14 @@
         {
           "ref": "histo_FD001_Part2",
           "deps": []
+        },
+        {
+          "ref": "histo_FD001_Part3",
+          "deps": []
+        },
+        {
+          "ref": "histo_FD001_config",
+          "deps": []
         }
       ]
     }
@@ -35,11 +43,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821256329
+    "lastModifiedOn": 1626821304112
   },
   "creationTag": {
     "versionNumber": 0,

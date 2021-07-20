@@ -6,73 +6,262 @@
       "conditionsMode": "AND",
       "type": "LEFT",
       "outerJoinOnTheLeft": true,
-      "on": []
+      "on": [
+        {
+          "column1": {
+            "name": "unit_id",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "unit_id",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "time",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "time",
+            "table": 1
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "table2": 2,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "unit_id",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "unit_id",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "time",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "time",
+            "table": 2
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
+    },
+    {
+      "table2": 3,
+      "table1": 0,
+      "conditionsMode": "AND",
+      "rightLimit": {},
+      "type": "LEFT",
+      "outerJoinOnTheLeft": true,
+      "on": [
+        {
+          "column1": {
+            "name": "unit_id",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "unit_id",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        },
+        {
+          "column1": {
+            "name": "time",
+            "table": 0
+          },
+          "dateDiffUnit": "DAY",
+          "column2": {
+            "name": "time",
+            "table": 3
+          },
+          "maxMatches": 1,
+          "caseInsensitive": false,
+          "maxDistance": 0,
+          "normalizeText": false,
+          "type": "EQ",
+          "strict": false
+        }
+      ]
     }
   ],
   "selectedColumns": [
     {
       "name": "unit_id",
+      "type": "bigint",
       "table": 0
     },
     {
       "name": "time",
+      "type": "string",
       "table": 0
     },
     {
       "name": "sensor_1",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_2",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_3",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_4",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_5",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_6",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_7",
+      "type": "double",
       "table": 0
     },
     {
       "name": "sensor_8",
+      "type": "double",
       "table": 1
     },
     {
       "name": "sensor_9",
+      "type": "double",
       "table": 1
     },
     {
       "name": "sensor_10",
+      "type": "double",
       "table": 1
     },
     {
       "name": "sensor_11",
+      "type": "double",
       "table": 1
     },
     {
       "name": "sensor_12",
+      "type": "double",
       "table": 1
     },
     {
       "name": "sensor_13",
+      "type": "double",
       "table": 1
     },
     {
       "name": "sensor_14",
+      "type": "double",
       "table": 1
+    },
+    {
+      "name": "sensor_15",
+      "type": "double",
+      "table": 2
+    },
+    {
+      "name": "sensor_16",
+      "type": "double",
+      "table": 2
+    },
+    {
+      "name": "sensor_17",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "sensor_18",
+      "type": "bigint",
+      "table": 2
+    },
+    {
+      "name": "sensor_19",
+      "type": "double",
+      "table": 2
+    },
+    {
+      "name": "sensor_20",
+      "type": "double",
+      "table": 2
+    },
+    {
+      "name": "sensor_21",
+      "type": "double",
+      "table": 2
+    },
+    {
+      "name": "setting_1",
+      "type": "double",
+      "table": 3
+    },
+    {
+      "name": "setting_2",
+      "type": "double",
+      "table": 3
+    },
+    {
+      "name": "setting_3",
+      "type": "double",
+      "table": 3
     }
   ],
   "engineParams": {
@@ -127,7 +316,127 @@
       "autoSelectColumns": false,
       "index": 1,
       "computedColumns": []
+    },
+    {
+      "index": 2
+    },
+    {
+      "index": 3
     }
   ],
+  "computedColumns": [],
+  "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "unit_id",
+            "type": "bigint"
+          },
+          {
+            "name": "time",
+            "type": "string"
+          },
+          {
+            "name": "sensor_1",
+            "type": "double"
+          },
+          {
+            "name": "sensor_2",
+            "type": "double"
+          },
+          {
+            "name": "sensor_3",
+            "type": "double"
+          },
+          {
+            "name": "sensor_4",
+            "type": "double"
+          },
+          {
+            "name": "sensor_5",
+            "type": "double"
+          },
+          {
+            "name": "sensor_6",
+            "type": "double"
+          },
+          {
+            "name": "sensor_7",
+            "type": "double"
+          },
+          {
+            "name": "sensor_8",
+            "type": "double"
+          },
+          {
+            "name": "sensor_9",
+            "type": "double"
+          },
+          {
+            "name": "sensor_10",
+            "type": "double"
+          },
+          {
+            "name": "sensor_11",
+            "type": "double"
+          },
+          {
+            "name": "sensor_12",
+            "type": "double"
+          },
+          {
+            "name": "sensor_13",
+            "type": "double"
+          },
+          {
+            "name": "sensor_14",
+            "type": "double"
+          },
+          {
+            "name": "sensor_15",
+            "type": "double"
+          },
+          {
+            "name": "sensor_16",
+            "type": "double"
+          },
+          {
+            "name": "sensor_17",
+            "type": "bigint"
+          },
+          {
+            "name": "sensor_18",
+            "type": "bigint"
+          },
+          {
+            "name": "sensor_19",
+            "type": "double"
+          },
+          {
+            "name": "sensor_20",
+            "type": "double"
+          },
+          {
+            "name": "sensor_21",
+            "type": "double"
+          },
+          {
+            "name": "setting_1",
+            "type": "double"
+          },
+          {
+            "name": "setting_2",
+            "type": "double"
+          },
+          {
+            "name": "setting_3",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      }
+    }
+  },
   "enableAutoCastInJoinConditions": false
 }
