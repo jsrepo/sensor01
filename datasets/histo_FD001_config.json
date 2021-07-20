@@ -58,11 +58,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821205590
+    "lastModifiedOn": 1626821205627
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,9 +73,19 @@
   },
   "tags": [],
   "params": {
-    "uploadBoxId": "7bccea3e2c65fe0289c1eb734d9a1b6fb40ba6338821397cdf14ba9cd9b65dd7",
-    "uploadConnection": "custom-upload",
     "uploadFSProviderType": "Filesystem",
+    "uploadedConfig": {
+      "connection": "custom-upload",
+      "path": "/uploads/${projectKey}/histo_FD001_config",
+      "notReadyIfEmpty": false,
+      "filesSelectionRules": {
+        "mode": "ALL",
+        "excludeRules": [],
+        "includeRules": [],
+        "explicitFiles": []
+      }
+    },
+    "connection": "custom-upload",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
