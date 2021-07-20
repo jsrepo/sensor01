@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626823039868
+    "lastModifiedOn": 1626823464237
   },
   "creationTag": {
     "versionNumber": 0,
@@ -166,6 +166,10 @@
       {
         "name": "Nb_Cycles_before_failure",
         "type": "double"
+      },
+      {
+        "name": "maintenance_plan",
+        "type": "string"
       },
       {
         "name": "Nb_Cycles",
