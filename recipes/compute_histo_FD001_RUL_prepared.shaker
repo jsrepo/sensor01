@@ -26,8 +26,82 @@
     "autoRefreshSample": false
   },
   "explorationFilters": [],
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RoundProcessor",
+      "params": {
+        "mode": "ROUND",
+        "places": 0,
+        "columns": [
+          "Nb_Cycles_before_failure"
+        ],
+        "precision": 0,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RoundProcessor",
+      "params": {
+        "mode": "ROUND",
+        "places": 0,
+        "columns": [
+          "Nb_Cycles"
+        ],
+        "precision": 0,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "BinnerProcessor",
+      "params": {
+        "output": "maintenance_plan",
+        "mode": "CUSTOM",
+        "input": "Nb_Cycles_before_failure",
+        "useMin": false,
+        "bins": [
+          {
+            "inf": 0.0,
+            "name": "urgent",
+            "sup": 10.0
+          },
+          {
+            "inf": 11.0,
+            "name": "short",
+            "sup": 20.0
+          },
+          {
+            "inf": 21.0,
+            "name": "medium",
+            "sup": 50.0
+          },
+          {
+            "inf": 51.0,
+            "name": "long"
+          }
+        ],
+        "min": 0.0,
+        "max": 0.0,
+        "useMax": false,
+        "width": 1.0
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -35,7 +109,37 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "sensor_7": 100,
+    "sensor_8": 106,
+    "sensor_5": 100,
+    "sensor_6": 100,
+    "sensor_9": 106,
+    "setting_3": 100,
+    "Nb_Cycles": 100,
+    "sensor_3": 106,
+    "sensor_10": 100,
+    "sensor_4": 106,
+    "sensor_11": 100,
+    "sensor_1": 106,
+    "sensor_12": 100,
+    "setting_1": 113,
+    "sensor_2": 100,
+    "sensor_13": 113,
+    "setting_2": 113,
+    "sensor_14": 113,
+    "sensor_15": 100,
+    "maintenance_plan": 135,
+    "sensor_16": 100,
+    "sensor_17": 100,
+    "sensor_18": 100,
+    "unit_id": 100,
+    "sensor_19": 100,
+    "sensor_20": 100,
+    "sensor_21": 113,
+    "time": 183,
+    "Nb_Cycles_before_failure": 195
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
