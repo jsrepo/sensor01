@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821256327
+    "lastModifiedOn": 1626821303919
   },
   "creationTag": {
     "versionNumber": 0,
@@ -121,6 +121,46 @@
       },
       {
         "name": "sensor_14",
+        "type": "double"
+      },
+      {
+        "name": "sensor_15",
+        "type": "double"
+      },
+      {
+        "name": "sensor_16",
+        "type": "double"
+      },
+      {
+        "name": "sensor_17",
+        "type": "bigint"
+      },
+      {
+        "name": "sensor_18",
+        "type": "bigint"
+      },
+      {
+        "name": "sensor_19",
+        "type": "double"
+      },
+      {
+        "name": "sensor_20",
+        "type": "double"
+      },
+      {
+        "name": "sensor_21",
+        "type": "double"
+      },
+      {
+        "name": "setting_1",
+        "type": "double"
+      },
+      {
+        "name": "setting_2",
+        "type": "double"
+      },
+      {
+        "name": "setting_3",
         "type": "double"
       }
     ],
