@@ -4,14 +4,11 @@ SELECT *
     + DATE_PART('hour',"failure_time" - "time")*60
     + DATE_PART('minute',"failure_time" - "time"))/30 as "Nb_Cycles_before_failure" , 
 
-
 (DATE_PART('day',"time" - "DateRef")*24*60
     + DATE_PART('hour',"time" - "DateRef")*60
     + DATE_PART('minute',"time" - "DateRef"))/30 as "Nb_Cycles"
 
-
-
-  FROM "sandbox"."NANAE_SENSORANDFAILURES_histo_joined_prepared"
+  FROM "sandbox"."NANAE_SENSORANDFAILURES_histo_joined_prepared",
   
   (
 SELECT "unit_id" , max("time") as "failure_time" , 
