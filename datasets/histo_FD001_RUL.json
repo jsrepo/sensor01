@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626822984140
+    "lastModifiedOn": 1626823001240
   },
   "creationTag": {
     "versionNumber": 0,
@@ -192,8 +192,7 @@
       {
         "name": "Nb_Cycles_before_failure",
         "type": "double",
-        "originalType": "float8",
-        "meaning": "LongMeaning"
+        "originalType": "float8"
       },
       {
         "name": "Nb_Cycles",
