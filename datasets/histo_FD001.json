@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626822653745
+    "lastModifiedOn": 1626822874854
   },
   "creationTag": {
     "versionNumber": 0,
@@ -65,7 +65,7 @@
       },
       {
         "name": "time",
-        "type": "string"
+        "type": "date"
       },
       {
         "name": "sensor_1",
