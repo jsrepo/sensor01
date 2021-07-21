@@ -1,6 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
+  "shortDesc": "各エンジンのセンサーの値を30分単位で取得したデータ\n・エンジンのID\n・日時\n・センサー15〜センサー21の値",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -58,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626820974370
+    "lastModifiedOn": 1626834655025
   },
   "creationTag": {
     "versionNumber": 0,
