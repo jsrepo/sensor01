@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626830962493
+    "lastModifiedOn": 1626831041078
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,8 +58,413 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "unit_id",
+        "type": "bigint"
+      },
+      {
+        "name": "time",
+        "type": "date"
+      },
+      {
+        "name": "sensor_1",
+        "type": "double"
+      },
+      {
+        "name": "sensor_2",
+        "type": "double"
+      },
+      {
+        "name": "sensor_3",
+        "type": "double"
+      },
+      {
+        "name": "sensor_4",
+        "type": "double"
+      },
+      {
+        "name": "sensor_5",
+        "type": "double"
+      },
+      {
+        "name": "sensor_6",
+        "type": "double"
+      },
+      {
+        "name": "sensor_7",
+        "type": "double"
+      },
+      {
+        "name": "sensor_8",
+        "type": "double"
+      },
+      {
+        "name": "sensor_9",
+        "type": "double"
+      },
+      {
+        "name": "sensor_10",
+        "type": "double"
+      },
+      {
+        "name": "sensor_11",
+        "type": "double"
+      },
+      {
+        "name": "sensor_12",
+        "type": "double"
+      },
+      {
+        "name": "sensor_13",
+        "type": "double"
+      },
+      {
+        "name": "sensor_14",
+        "type": "double"
+      },
+      {
+        "name": "sensor_15",
+        "type": "double"
+      },
+      {
+        "name": "sensor_16",
+        "type": "double"
+      },
+      {
+        "name": "sensor_17",
+        "type": "bigint"
+      },
+      {
+        "name": "sensor_18",
+        "type": "bigint"
+      },
+      {
+        "name": "sensor_19",
+        "type": "double"
+      },
+      {
+        "name": "sensor_20",
+        "type": "double"
+      },
+      {
+        "name": "sensor_21",
+        "type": "double"
+      },
+      {
+        "name": "setting_1",
+        "type": "double"
+      },
+      {
+        "name": "setting_2",
+        "type": "double"
+      },
+      {
+        "name": "setting_3",
+        "type": "double"
+      },
+      {
+        "name": "Nb_Cycles_before_failure",
+        "type": "double"
+      },
+      {
+        "name": "maintenance_plan",
+        "type": "string"
+      },
+      {
+        "name": "Nb_Cycles",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_1_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_2_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_3_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_4_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_5_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_6_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_7_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_8_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_9_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_10_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_11_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_12_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_13_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_14_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_15_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_16_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_17_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_18_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_19_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_20_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_sensor_21_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_setting_1_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_setting_2_avg",
+        "type": "double"
+      },
+      {
+        "name": "w10_cycles_setting_3_avg",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_setting_1",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_setting_1",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_setting_2",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_setting_2",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_setting_3",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_setting_3",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_1",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_1",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_2",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_2",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_3",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_3",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_4",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_4",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_5",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_5",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_6",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_6",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_7",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_7",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_8",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_8",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_9",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_9",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_10",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_10",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_11",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_11",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_12",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_12",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_13",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_13",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_14",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_14",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_15",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_15",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_16",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_16",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_17",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_17",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_18",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_18",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_19",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_19",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_20",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_20",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_max_sensor_21",
+        "type": "double"
+      },
+      {
+        "name": "pct_to_min_sensor_21",
+        "type": "double"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
