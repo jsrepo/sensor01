@@ -1,6 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
+  "shortDesc": "機器の設定情報\n・機器ID\n3カラム",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -58,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821055944
+    "lastModifiedOn": 1626834260619
   },
   "creationTag": {
     "versionNumber": 0,
