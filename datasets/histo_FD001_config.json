@@ -1,6 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
+  "shortDesc": "各エンジンの設定情報を30分単位で取得したデータ\n・エンジンのID\n・日時\n・エンジンの設定情報3種類",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -58,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821205627
+    "lastModifiedOn": 1626834534008
   },
   "creationTag": {
     "versionNumber": 0,
