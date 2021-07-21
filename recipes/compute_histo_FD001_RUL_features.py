@@ -6,7 +6,7 @@ from dataiku import pandasutils as pdu
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Declare input and output objects
-dku_input = dataiku.Dataset("histo_FD001_RUL_prepared_movingavg")
+dku_input = dataiku.Dataset("compute_histo_FD001_RUL_prepared_windows")
 dku_output = dataiku.Dataset("histo_FD001_RUL_features")
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
