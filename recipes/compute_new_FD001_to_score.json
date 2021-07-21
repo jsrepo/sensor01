@@ -3,12 +3,17 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
+    "engineType": "SQL",
     "engineParams": {
       "spark": {
         "readParams": {
           "mode": "AUTO",
           "autoModeRepartitionInto": 10,
-          "map": {}
+          "map": {
+            "new_FD001_features": {
+              "repartition": 10
+            }
+          }
         },
         "useGlobalMetastore": false,
         "useNativeProcessors": true,
@@ -68,11 +73,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626832152419
+    "lastModifiedOn": 1626832192157
   },
   "creationTag": {
     "versionNumber": 0,
