@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626831678467
+    "lastModifiedOn": 1626831786301
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,7 +58,143 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "unit_id",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "time",
+        "type": "date",
+        "originalType": "timestamptz"
+      },
+      {
+        "name": "setting_1",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "setting_2",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "setting_3",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_1",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_2",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_3",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_4",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_5",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_6",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_7",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_8",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_9",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_10",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_11",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_12",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_13",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_14",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_15",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_16",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_17",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "sensor_18",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "sensor_19",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_20",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "sensor_21",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "Nb_Cycles",
+        "type": "double",
+        "originalType": "float8"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
