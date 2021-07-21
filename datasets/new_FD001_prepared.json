@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626831635446
+    "lastModifiedOn": 1626831765558
   },
   "creationTag": {
     "versionNumber": 0,
@@ -65,7 +65,7 @@
       },
       {
         "name": "time",
-        "type": "string"
+        "type": "date"
       },
       {
         "name": "setting_1",
