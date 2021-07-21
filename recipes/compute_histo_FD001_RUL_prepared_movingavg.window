@@ -4,6 +4,7 @@
     "enabled": false
   },
   "ntileValues": "10",
+  "keys": [],
   "values": [
     {
       "last": false,
@@ -12,9 +13,11 @@
       "firstLastNotNull": false,
       "column": "unit_id",
       "count": false,
+      "$idx": 0,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -35,9 +38,11 @@
       "firstLastNotNull": false,
       "column": "time",
       "count": false,
+      "$idx": 1,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "date",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -54,21 +59,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_1",
       "count": false,
+      "$idx": 2,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -77,21 +85,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_2",
       "count": false,
+      "$idx": 3,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -100,21 +111,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_3",
       "count": false,
+      "$idx": 4,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -123,21 +137,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_4",
       "count": false,
+      "$idx": 5,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -146,21 +163,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_5",
       "count": false,
+      "$idx": 6,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -169,21 +189,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_6",
       "count": false,
+      "$idx": 7,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -192,21 +215,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_7",
       "count": false,
+      "$idx": 8,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -215,21 +241,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_8",
       "count": false,
+      "$idx": 9,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -238,21 +267,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_9",
       "count": false,
+      "$idx": 10,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -261,21 +293,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_10",
       "count": false,
+      "$idx": 11,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -284,21 +319,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_11",
       "count": false,
+      "$idx": 12,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -307,21 +345,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_12",
       "count": false,
+      "$idx": 13,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -330,21 +371,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_13",
       "count": false,
+      "$idx": 14,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -353,21 +397,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_14",
       "count": false,
+      "$idx": 15,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -376,21 +423,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_15",
       "count": false,
+      "$idx": 16,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -399,21 +449,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_16",
       "count": false,
+      "$idx": 17,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -422,21 +475,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_17",
       "count": false,
+      "$idx": 18,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -445,21 +501,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_18",
       "count": false,
+      "$idx": 19,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "bigint",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -468,21 +527,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_19",
       "count": false,
+      "$idx": 20,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -491,21 +553,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_20",
       "count": false,
+      "$idx": 21,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -514,21 +579,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "sensor_21",
       "count": false,
+      "$idx": 22,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -537,21 +605,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "setting_1",
       "count": false,
+      "$idx": 23,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -560,21 +631,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "setting_2",
       "count": false,
+      "$idx": 24,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -583,21 +657,24 @@
     {
       "last": false,
       "lagDiff": false,
-      "max": false,
+      "max": true,
       "firstLastNotNull": false,
       "column": "setting_3",
       "count": false,
+      "$idx": 25,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
-      "min": false,
+      "min": true,
       "countDistinct": false,
-      "avg": false,
+      "avg": true,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
       "value": true,
       "leadDiff": false,
@@ -610,9 +687,11 @@
       "firstLastNotNull": false,
       "column": "Nb_Cycles_before_failure",
       "count": false,
+      "$idx": 26,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -633,9 +712,11 @@
       "firstLastNotNull": false,
       "column": "maintenance_plan",
       "count": false,
+      "$idx": 27,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "string",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -656,9 +737,11 @@
       "firstLastNotNull": false,
       "column": "Nb_Cycles",
       "count": false,
+      "$idx": 28,
       "lagValues": "1",
       "sum": false,
       "concat": false,
+      "type": "double",
       "lead": false,
       "concatDistinct": false,
       "dateDiffUnit": "DAY",
@@ -676,20 +759,743 @@
   "legacyUnboundedWindowStreamBehavior": false,
   "windows": [
     {
-      "windowUpperBound": 0.0,
-      "enablePartitioning": false,
-      "enableOrdering": false,
-      "precedingRows": 0,
-      "limitFollowing": false,
-      "orders": [],
-      "limitPreceding": false,
+      "windowUpperBound": 0,
+      "enablePartitioning": true,
+      "enableOrdering": true,
+      "precedingRows": 10,
+      "prefix": "w10_cycles",
+      "limitFollowing": true,
       "followingRows": 0,
-      "windowLowerBound": 0.0,
-      "enableLimits": false
+      "partitioningColumns": [
+        "unit_id"
+      ],
+      "windowLimitMode": "ROWS",
+      "orders": [
+        {
+          "column": "Nb_Cycles",
+          "desc": false
+        }
+      ],
+      "limitPreceding": true,
+      "windowLowerBound": 0,
+      "enableLimits": true
+    },
+    {
+      "enablePartitioning": true,
+      "prefix": "w_full_history",
+      "enableOrdering": true,
+      "orders": [
+        {
+          "column": "Nb_Cycles",
+          "desc": false
+        }
+      ],
+      "partitioningColumns": [
+        "unit_id"
+      ]
     }
   ],
   "computedColumns": [],
   "postFilter": {
+    "$status": {
+      "schema": {
+        "columns": [
+          {
+            "name": "unit_id",
+            "type": "bigint"
+          },
+          {
+            "name": "time",
+            "type": "date"
+          },
+          {
+            "name": "sensor_1",
+            "type": "double"
+          },
+          {
+            "name": "sensor_2",
+            "type": "double"
+          },
+          {
+            "name": "sensor_3",
+            "type": "double"
+          },
+          {
+            "name": "sensor_4",
+            "type": "double"
+          },
+          {
+            "name": "sensor_5",
+            "type": "double"
+          },
+          {
+            "name": "sensor_6",
+            "type": "double"
+          },
+          {
+            "name": "sensor_7",
+            "type": "double"
+          },
+          {
+            "name": "sensor_8",
+            "type": "double"
+          },
+          {
+            "name": "sensor_9",
+            "type": "double"
+          },
+          {
+            "name": "sensor_10",
+            "type": "double"
+          },
+          {
+            "name": "sensor_11",
+            "type": "double"
+          },
+          {
+            "name": "sensor_12",
+            "type": "double"
+          },
+          {
+            "name": "sensor_13",
+            "type": "double"
+          },
+          {
+            "name": "sensor_14",
+            "type": "double"
+          },
+          {
+            "name": "sensor_15",
+            "type": "double"
+          },
+          {
+            "name": "sensor_16",
+            "type": "double"
+          },
+          {
+            "name": "sensor_17",
+            "type": "bigint"
+          },
+          {
+            "name": "sensor_18",
+            "type": "bigint"
+          },
+          {
+            "name": "sensor_19",
+            "type": "double"
+          },
+          {
+            "name": "sensor_20",
+            "type": "double"
+          },
+          {
+            "name": "sensor_21",
+            "type": "double"
+          },
+          {
+            "name": "setting_1",
+            "type": "double"
+          },
+          {
+            "name": "setting_2",
+            "type": "double"
+          },
+          {
+            "name": "setting_3",
+            "type": "double"
+          },
+          {
+            "name": "Nb_Cycles_before_failure",
+            "type": "double"
+          },
+          {
+            "name": "maintenance_plan",
+            "type": "string"
+          },
+          {
+            "name": "Nb_Cycles",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_1_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_1_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_1_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_2_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_2_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_2_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_3_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_3_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_3_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_4_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_4_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_4_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_5_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_5_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_5_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_6_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_6_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_6_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_7_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_7_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_7_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_8_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_8_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_8_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_9_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_9_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_9_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_10_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_10_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_10_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_11_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_11_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_11_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_12_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_12_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_12_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_13_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_13_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_13_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_14_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_14_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_14_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_15_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_15_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_15_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_16_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_16_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_16_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_17_min",
+            "type": "bigint"
+          },
+          {
+            "name": "w10_cycles_sensor_17_max",
+            "type": "bigint"
+          },
+          {
+            "name": "w10_cycles_sensor_17_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_18_min",
+            "type": "bigint"
+          },
+          {
+            "name": "w10_cycles_sensor_18_max",
+            "type": "bigint"
+          },
+          {
+            "name": "w10_cycles_sensor_18_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_19_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_19_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_19_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_20_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_20_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_20_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_21_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_21_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_sensor_21_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_1_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_1_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_1_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_2_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_2_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_2_avg",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_3_min",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_3_max",
+            "type": "double"
+          },
+          {
+            "name": "w10_cycles_setting_3_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_1_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_1_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_1_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_2_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_2_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_2_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_3_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_3_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_3_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_4_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_4_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_4_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_5_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_5_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_5_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_6_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_6_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_6_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_7_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_7_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_7_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_8_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_8_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_8_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_9_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_9_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_9_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_10_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_10_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_10_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_11_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_11_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_11_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_12_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_12_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_12_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_13_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_13_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_13_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_14_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_14_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_14_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_15_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_15_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_15_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_16_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_16_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_16_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_17_min",
+            "type": "bigint"
+          },
+          {
+            "name": "w_full_history_sensor_17_max",
+            "type": "bigint"
+          },
+          {
+            "name": "w_full_history_sensor_17_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_18_min",
+            "type": "bigint"
+          },
+          {
+            "name": "w_full_history_sensor_18_max",
+            "type": "bigint"
+          },
+          {
+            "name": "w_full_history_sensor_18_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_19_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_19_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_19_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_20_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_20_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_20_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_21_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_21_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_sensor_21_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_1_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_1_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_1_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_2_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_2_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_2_avg",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_3_min",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_3_max",
+            "type": "double"
+          },
+          {
+            "name": "w_full_history_setting_3_avg",
+            "type": "double"
+          }
+        ],
+        "userModified": false
+      }
+    },
     "distinct": false,
     "enabled": false
   },
@@ -731,5 +1537,6 @@
   "ntile": false,
   "rank": false,
   "denseRank": false,
-  "rowNumber": false
+  "rowNumber": false,
+  "outputColumnNameOverrides": {}
 }
