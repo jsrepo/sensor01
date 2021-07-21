@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626832392779
+    "lastModifiedOn": 1626832403520
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,7 +58,43 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "unit_id",
+        "type": "bigint",
+        "originalType": "int8"
+      },
+      {
+        "name": "Nb_Cycles",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "prediction",
+        "type": "string",
+        "originalType": "text"
+      },
+      {
+        "name": "proba_long",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "proba_medium",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "proba_short",
+        "type": "double",
+        "originalType": "float8"
+      },
+      {
+        "name": "proba_urgent",
+        "type": "double",
+        "originalType": "float8"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
