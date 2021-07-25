@@ -1,7 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
-  "shortDesc": "各エンジンの設定情報を30分単位で取得したデータ\n・エンジンのID\n・日時\n・エンジンの設定情報3種類",
+  "shortDesc": "各エンジンの設定パラメーターの値を30分単位で取得したデータ\n  ・ **unit_id** : エンジンのID\n  ・ **time** : 日時(30分おき)\n  ・ **setting_1**  ~  **setting_3** : 設定1 ~ 3の値",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626834534008
+    "lastModifiedOn": 1627215982132
   },
   "creationTag": {
     "versionNumber": 0,
