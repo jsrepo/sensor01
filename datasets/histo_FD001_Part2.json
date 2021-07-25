@@ -1,7 +1,7 @@
 {
   "type": "UploadedFiles",
   "managed": false,
-  "shortDesc": "各エンジンのセンサーの値を30分単位で取得したデータ\n・エンジンのID\n・日時\n・センサー8〜センサー14の値",
+  "shortDesc": "各エンジンのセンサーの値を30分単位で取得したデータ\n  ・ **unit_id** : エンジンのID\n  ・ **time** : 日時(30分おき)\n  ・ **sensor_8**  ~  **sensor_14** : センサー8 ~ 14の値",
   "formatType": "csv",
   "checklists": {
     "checklists": []
@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626834667052
+    "lastModifiedOn": 1627215898066
   },
   "creationTag": {
     "versionNumber": 0,
