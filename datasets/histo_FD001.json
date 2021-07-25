@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627251970241
+    "lastModifiedOn": 1627252198806
   },
   "creationTag": {
     "versionNumber": 0,
@@ -301,7 +301,37 @@
   },
   "metricsChecks": {
     "runOnBuild": false,
-    "checks": [],
+    "checks": [
+      {
+        "metricId": "basic:COUNT_COLUMNS",
+        "values": [
+          "26"
+        ],
+        "type": "valueSet",
+        "meta": {
+          "name": "Value in set",
+          "label": "列数：26"
+        },
+        "computeOnBuildMode": "PARTITION"
+      },
+      {
+        "metricId": "records:COUNT_RECORDS",
+        "minimum": 20000.0,
+        "maximum": 0.0,
+        "softMinimum": 0.0,
+        "softMaximum": 0.0,
+        "minimumEnabled": true,
+        "maximumEnabled": false,
+        "softMinimumEnabled": false,
+        "softMaximumEnabled": false,
+        "type": "numericRange",
+        "meta": {
+          "name": "Value in range",
+          "label": "行数：20000以上"
+        },
+        "computeOnBuildMode": "PARTITION"
+      }
+    ],
     "displayedState": {
       "partition": "NP",
       "checks": []
