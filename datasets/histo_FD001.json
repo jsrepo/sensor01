@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 13,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252421530
+    "lastModifiedOn": 1627252591959
   },
   "creationTag": {
     "versionNumber": 0,
@@ -41,7 +41,10 @@
     },
     "lastModifiedOn": 1626822653745
   },
-  "tags": [],
+  "tags": [
+    "metrics",
+    "checks"
+  ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "design_sandbox",
@@ -316,10 +319,10 @@
       },
       {
         "metricId": "records:COUNT_RECORDS",
-        "minimum": 20000.0,
-        "maximum": 0.0,
-        "softMinimum": 0.0,
-        "softMaximum": 0.0,
+        "minimum": 20000,
+        "maximum": 0,
+        "softMinimum": 0,
+        "softMaximum": 0,
         "minimumEnabled": true,
         "maximumEnabled": false,
         "softMinimumEnabled": false,
@@ -333,10 +336,10 @@
       },
       {
         "metricId": "basic:COUNT_COLUMNS",
-        "minimum": 26.0,
-        "maximum": 0.0,
-        "softMinimum": 0.0,
-        "softMaximum": 0.0,
+        "minimum": 26,
+        "maximum": 0,
+        "softMinimum": 0,
+        "softMaximum": 0,
         "minimumEnabled": true,
         "maximumEnabled": false,
         "softMinimumEnabled": false,
