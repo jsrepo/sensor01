@@ -179,11 +179,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 14,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627213548246
+    "lastModifiedOn": 1627214828123
   },
   "creationTag": {
     "versionNumber": 0,
@@ -203,33 +203,33 @@
   "checklists": {
     "checklists": [
       {
-        "title": "Your new project\u0027s Todo",
+        "title": "プロジェクトの Todo リスト",
         "createdOn": 0,
         "items": [
           {
             "done": true,
-            "text": "Create the project",
+            "text": "プロジェクトの作成",
+            "createdOn": 1626820956394,
+            "createdBy": "nanae",
+            "stateChangedOn": 0
+          },
+          {
+            "done": true,
+            "text": "プロジェクト名の隣に画像を挿入",
+            "createdOn": 1626820956394,
+            "createdBy": "nanae",
+            "stateChangedOn": 0
+          },
+          {
+            "done": true,
+            "text": "データセットをインポート",
             "createdOn": 1626820956394,
             "createdBy": "nanae",
             "stateChangedOn": 0
           },
           {
             "done": false,
-            "text": "Set a project image (click on the color next to the project title)",
-            "createdOn": 1626820956394,
-            "createdBy": "nanae",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Import your [first dataset](projects/NANAE_SENSORANDFAILURES/datasets/new/)",
-            "createdOn": 1626820956394,
-            "createdBy": "nanae",
-            "stateChangedOn": 0
-          },
-          {
-            "done": false,
-            "text": "Organize your work by replacing this with a real todo",
+            "text": "センサーデータの確認",
             "createdOn": 1626820956394,
             "createdBy": "nanae",
             "stateChangedOn": 0
