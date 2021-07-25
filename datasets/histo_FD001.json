@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252256495
+    "lastModifiedOn": 1627252309889
   },
   "creationTag": {
     "versionNumber": 0,
@@ -328,18 +328,6 @@
         "meta": {
           "name": "Value in range",
           "label": "行数：20000以上"
-        },
-        "computeOnBuildMode": "PARTITION"
-      },
-      {
-        "metricId": "basic:COUNT_COLUMNS",
-        "values": [
-          "26"
-        ],
-        "type": "valueSet",
-        "meta": {
-          "name": "Value in set",
-          "label": "列数：26"
         },
         "computeOnBuildMode": "PARTITION"
       }
