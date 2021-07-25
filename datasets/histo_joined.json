@@ -1,6 +1,7 @@
 {
   "type": "PostgreSQL",
   "managed": true,
+  "shortDesc": "各エンジンから30分単位で取得した、センサーと設定パラメーターの値を組み合わせたデータ\n  ・ **unit_id** : エンジンのID\n  ・ **time** : 日時(30分おき)\n  ・ **sensor_1**  ~  **sensor_21** : センサー1 ~ 21の値\n  ・**setting_1**  ~  **setting_3** : 設定パラメーター1 ~ 3の値",
   "checklists": {
     "checklists": []
   },
@@ -28,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821303919
+    "lastModifiedOn": 1627216190869
   },
   "creationTag": {
     "versionNumber": 0,
