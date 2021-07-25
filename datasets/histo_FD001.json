@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 11,
+    "versionNumber": 12,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252397081
+    "lastModifiedOn": 1627252403537
   },
   "creationTag": {
     "versionNumber": 0,
@@ -353,7 +353,8 @@
       "partition": "NP",
       "checks": [
         "列数：26",
-        "行数：20000以上"
+        "行数：20000以上",
+        "行数：26以上"
       ]
     }
   },
