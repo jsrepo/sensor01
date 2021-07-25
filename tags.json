@@ -1,11 +1,25 @@
 {
   "tags": {
-    "Country:Japan": {},
-    "demo": {},
-    "manufaturing": {},
-    "metrics": {},
-    "checks": {},
-    "design models": {},
-    "モデルの適用": {}
+    "モデルの作成": {
+      "color": "#d66b9b"
+    },
+    "モデルの適用": {
+      "color": "#94be8e"
+    },
+    "checks": {
+      "color": "#77bec2"
+    },
+    "manufaturing": {
+      "color": "#77bec2"
+    },
+    "Country:Japan": {
+      "color": "#eb1e4f"
+    },
+    "metrics": {
+      "color": "#94be8e"
+    },
+    "demo": {
+      "color": "#94be8e"
+    }
   }
 }

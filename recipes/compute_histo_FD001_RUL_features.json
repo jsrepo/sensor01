@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252679824
+    "lastModifiedOn": 1627252834317
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +54,7 @@
     "lastModifiedOn": 1626830963548
   },
   "tags": [
-    "design models"
+    "モデルの作成"
   ],
   "customFields": {},
   "checklists": {

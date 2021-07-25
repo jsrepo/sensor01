@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252679813
+    "lastModifiedOn": 1627252834310
   },
   "creationTag": {
     "versionNumber": 0,
@@ -73,7 +73,7 @@
     "lastModifiedOn": 1626821205590
   },
   "tags": [
-    "design models"
+    "モデルの作成"
   ],
   "params": {
     "uploadFSProviderType": "Filesystem",
