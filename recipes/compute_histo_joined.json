@@ -43,11 +43,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626821304112
+    "lastModifiedOn": 1627216116007
   },
   "creationTag": {
     "versionNumber": 0,
@@ -56,6 +56,7 @@
     },
     "lastModifiedOn": 1626821256329
   },
+  "shortDesc": "  ",
   "tags": [],
   "customFields": {},
   "checklists": {
