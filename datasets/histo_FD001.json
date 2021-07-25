@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 9,
+    "versionNumber": 10,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252309889
+    "lastModifiedOn": 1627252328154
   },
   "creationTag": {
     "versionNumber": 0,
@@ -335,9 +335,8 @@
     "displayedState": {
       "partition": "NP",
       "checks": [
-        "Value in set of basic:COUNT_COLUMNS",
-        "Value in range of Record count",
-        "列数：26"
+        "列数：26",
+        "行数：20000以上"
       ]
     }
   },
