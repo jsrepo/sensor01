@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626832245042
+    "lastModifiedOn": 1627252798573
   },
   "creationTag": {
     "versionNumber": 0,
@@ -41,7 +41,9 @@
     },
     "lastModifiedOn": 1626832245042
   },
-  "tags": [],
+  "tags": [
+    "モデルの適用"
+  ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "design_sandbox",
