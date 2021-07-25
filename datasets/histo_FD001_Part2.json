@@ -59,11 +59,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627215898066
+    "lastModifiedOn": 1627252679810
   },
   "creationTag": {
     "versionNumber": 0,
@@ -72,7 +72,9 @@
     },
     "lastModifiedOn": 1626821005436
   },
-  "tags": [],
+  "tags": [
+    "design models"
+  ],
   "params": {
     "uploadFSProviderType": "Filesystem",
     "uploadedConfig": {

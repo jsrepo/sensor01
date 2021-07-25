@@ -72,11 +72,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626823466591
+    "lastModifiedOn": 1627252679823
   },
   "creationTag": {
     "versionNumber": 0,
@@ -85,7 +85,9 @@
     },
     "lastModifiedOn": 1626823039870
   },
-  "tags": [],
+  "tags": [
+    "design models"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []

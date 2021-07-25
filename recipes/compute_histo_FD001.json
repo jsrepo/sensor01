@@ -72,11 +72,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627216237863
+    "lastModifiedOn": 1627252679815
   },
   "creationTag": {
     "versionNumber": 0,
@@ -86,7 +86,9 @@
     "lastModifiedOn": 1626822653747
   },
   "shortDesc": "日付をパース",
-  "tags": [],
+  "tags": [
+    "design models"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []
