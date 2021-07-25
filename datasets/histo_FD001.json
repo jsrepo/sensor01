@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627252198806
+    "lastModifiedOn": 1627252210880
   },
   "creationTag": {
     "versionNumber": 0,
@@ -334,7 +334,10 @@
     ],
     "displayedState": {
       "partition": "NP",
-      "checks": []
+      "checks": [
+        "Value in set of basic:COUNT_COLUMNS",
+        "Value in range of Record count"
+      ]
     }
   },
   "customFields": {}
