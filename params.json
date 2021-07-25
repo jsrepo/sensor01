@@ -122,6 +122,8 @@
   },
   "name": "Nanae_Sensor and Failures",
   "projectStatus": "Sandbox",
+  "imgPattern": 7,
+  "showInitials": false,
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -175,6 +177,13 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627207844141
   },
   "creationTag": {
     "versionNumber": 0,
