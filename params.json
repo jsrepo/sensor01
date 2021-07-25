@@ -120,7 +120,7 @@
       }
     }
   },
-  "name": "Nanae_Sensor and Failures",
+  "name": "エンジンの故障予測",
   "projectStatus": "Sandbox",
   "imgPattern": 7,
   "showInitials": false,
@@ -179,11 +179,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627207844141
+    "lastModifiedOn": 1627208731076
   },
   "creationTag": {
     "versionNumber": 0,
@@ -192,6 +192,7 @@
     },
     "lastModifiedOn": 1626820956393
   },
+  "description": "#  **センサーデータを用いたエンジンの故障予測** \n\nこのプロジェクトは、製造プロセスの障害予測を実施しています。\n障害を予測した結果、保守計画を再考できます。\n\n入力データ：\n- エンジンに設置してある21のセンサーデータが含まれます。\n- センサーは30分ごとにデータを取得します（これをサイクルと呼びます）。\n- エンジンが故障すると、センサーからのデータ送信は止まります。\n- エンジン情報のデータも含まれます。\n\nプロジェクトの概要：\n- センサーデータやエンジン情報を収集します。\n- データを加工して、予測に使用できるデータを作成します。\n- 予測モデルを構築します。\n- 予測モデルを新しいデータに適用します。\n- 障害発生時に影響のあるビジネスユーザーに結果を共有",
   "shortDesc": "The project *Nanae_Sensor and Failures* was created by Nanae on Jul 20th 2021",
   "tags": [],
   "customFields": {},
