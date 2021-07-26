@@ -39,7 +39,7 @@
     "testOnLargerValues": true,
     "kfold": false,
     "nFolds": 5,
-    "instanceIdRefresher": 1,
+    "instanceIdRefresher": 0,
     "subSamplingSeed": 1337
   },
   "preprocessing": {
@@ -3464,7 +3464,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": false
+      "enabled": true
     },
     "deep_learning_sparkling": {
       "enabled": false,
