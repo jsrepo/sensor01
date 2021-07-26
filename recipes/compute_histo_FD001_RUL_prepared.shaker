@@ -77,17 +77,17 @@
           {
             "inf": 0.0,
             "name": "urgent",
-            "sup": 10.0
+            "sup": 11.0
           },
           {
             "inf": 11.0,
             "name": "short",
-            "sup": 20.0
+            "sup": 21.0
           },
           {
             "inf": 21.0,
             "name": "medium",
-            "sup": 50.0
+            "sup": 51.0
           },
           {
             "inf": 51.0,
