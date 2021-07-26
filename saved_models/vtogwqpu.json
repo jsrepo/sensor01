@@ -3,7 +3,7 @@
   "rebuildBehavior": "EXPLICIT",
   "name": "Prediction (LOGISTIC_REGRESSION) on histo_FD001_RUL_features",
   "contentType": "prediction/py_memory",
-  "activeVersion": "initial",
+  "activeVersion": "1627257941365",
   "conditionalOutputs": [],
   "partitioning": {
     "ignoreNonMatchingFile": false,
@@ -1787,11 +1787,11 @@
     "labels": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626832223051
+    "lastModifiedOn": 1627257969497
   },
   "creationTag": {
     "versionNumber": 0,
