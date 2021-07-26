@@ -42,21 +42,16 @@
       ]
     },
     "metrics": {
-      "items": [
-        {
-          "ref": "histo_FD001_evaluate_metrics",
-          "appendMode": true
-        }
-      ]
+      "items": []
     }
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627258286743
+    "lastModifiedOn": 1627258634475
   },
   "creationTag": {
     "versionNumber": 0,
