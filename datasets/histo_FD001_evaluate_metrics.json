@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627258278753
+    "lastModifiedOn": 1627258282508
   },
   "creationTag": {
     "versionNumber": 0,
@@ -58,7 +58,44 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {
+        "name": "date",
+        "type": "date"
+      },
+      {
+        "name": "mrocAUC",
+        "type": "double"
+      },
+      {
+        "name": "recall",
+        "type": "double"
+      },
+      {
+        "name": "precision",
+        "type": "double"
+      },
+      {
+        "name": "accuracy",
+        "type": "double"
+      },
+      {
+        "name": "logLoss",
+        "type": "double"
+      },
+      {
+        "name": "hammingLoss",
+        "type": "double"
+      },
+      {
+        "name": "mcalibrationLoss",
+        "type": "double"
+      },
+      {
+        "name": "customScore",
+        "type": "double"
+      }
+    ],
     "userModified": true
   },
   "dkuProperties": [],
