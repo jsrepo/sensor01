@@ -21,6 +21,7 @@
     "demo": {
       "color": "#94be8e"
     },
-    "charts": {}
+    "charts": {},
+    "recipe-editor": {}
   }
 }
