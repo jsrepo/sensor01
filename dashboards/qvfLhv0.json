@@ -95,52 +95,19 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 8,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "summary",
-              "advancedOptions": {}
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "MOaBqQP",
-            "insightType": "saved-model_report",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
-          },
-          {
-            "tileType": "INSIGHT",
-            "box": {
-              "top": -1,
-              "left": -1,
-              "width": 8,
-              "height": 4
-            },
-            "clickAction": "DO_NOTHING",
-            "tileParams": {
-              "displayMode": "summary",
-              "advancedOptions": {}
-            },
-            "autoLoad": true,
-            "showTitle": "YES",
-            "insightId": "oOWT03J",
-            "insightType": "saved-model_report",
-            "displayMode": "INSIGHT",
-            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
       "title": "センサー分析",
-      "showTitle": true,
-      "backgroundColor": "#f2d8f1"
+      "showTitle": true
+    },
+    {
+      "id": "8O0CxNX",
+      "grid": {
+        "tiles": []
+      },
+      "title": "故障予測",
+      "showTitle": true
     }
   ],
   "owner": "nanae",
@@ -148,11 +115,11 @@
   "name": "Nanae_Sensor and Failures\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 15,
+    "versionNumber": 16,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627373426551
+    "lastModifiedOn": 1627373487396
   },
   "creationTag": {
     "versionNumber": 0,
