@@ -8,9 +8,9 @@
             "tileType": "INSIGHT",
             "box": {
               "top": 2,
-              "left": 5,
-              "width": 7,
-              "height": 2
+              "left": 8,
+              "width": 4,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -32,8 +32,8 @@
             "box": {
               "top": 2,
               "left": 0,
-              "width": 5,
-              "height": 4
+              "width": 4,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -76,10 +76,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 4,
-              "left": 5,
-              "width": 7,
-              "height": 2
+              "top": 2,
+              "left": 4,
+              "width": 4,
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -112,7 +112,7 @@
               "top": 0,
               "left": 7,
               "width": 5,
-              "height": 4
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -215,7 +215,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 4,
+              "top": 3,
               "left": 0,
               "width": 9,
               "height": 4
@@ -321,7 +321,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 4,
+              "top": 3,
               "left": 9,
               "width": 3,
               "height": 4
@@ -430,7 +430,7 @@
               "top": 0,
               "left": 0,
               "width": 7,
-              "height": 4
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -459,11 +459,11 @@
   "name": "Nanae_Sensor and Failures\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 40,
+    "versionNumber": 41,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627374112931
+    "lastModifiedOn": 1627374172339
   },
   "creationTag": {
     "versionNumber": 0,
