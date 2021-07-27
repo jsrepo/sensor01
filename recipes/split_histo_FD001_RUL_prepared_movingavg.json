@@ -1,0 +1,60 @@
+{
+  "type": "split",
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false,
+  "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
+  "inputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "histo_FD001_RUL_prepared_movingavg",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "engine_sensor1",
+          "appendMode": false
+        },
+        {
+          "ref": "engine_sensor2",
+          "appendMode": false
+        },
+        {
+          "ref": "engine_setting",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "labels": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627426999279
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627426999279
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
