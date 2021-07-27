@@ -19,6 +19,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "new_FD001_alerts",
+          "objectType": "DATASET"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -214,11 +223,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 22,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627373666052
+    "lastModifiedOn": 1627373695113
   },
   "creationTag": {
     "versionNumber": 0,
