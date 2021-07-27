@@ -54,23 +54,23 @@
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of w10_cycles_sensor_15_avg, descending"
+              "label": "Average of sensor_15, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 0,
-              "label": "Average of w10_cycles_sensor_15_avg, ascending",
+              "label": "Average of sensor_15, ascending",
               "sortAscending": true
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of sensor_15, descending"
+              "label": "Average of w10_cycles_sensor_15_avg, descending"
             },
             {
               "type": "AGGREGATION",
               "measureIdx": 1,
-              "label": "Average of sensor_15, ascending",
+              "label": "Average of w10_cycles_sensor_15_avg, ascending",
               "sortAscending": true
             }
           ],
@@ -86,7 +86,7 @@
       "animationDimension": [],
       "genericMeasures": [
         {
-          "column": "w10_cycles_sensor_15_avg",
+          "column": "sensor_15",
           "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
@@ -97,7 +97,7 @@
           "computeModeDim": 0
         },
         {
-          "column": "sensor_15",
+          "column": "w10_cycles_sensor_15_avg",
           "function": "AVG",
           "type": "NUMERICAL",
           "displayed": true,
@@ -128,7 +128,7 @@
       "filters": [],
       "axis1LogScale": false,
       "axis2LogScale": false,
-      "includeZero": true,
+      "includeZero": false,
       "smoothing": true,
       "showLegend": true,
       "showXAxis": false,
@@ -149,7 +149,7 @@
       "colorOptions": {
         "singleColor": "#2678B1",
         "transparency": 0.75,
-        "colorPalette": "default",
+        "colorPalette": "dku_pastel2",
         "ccScaleMode": "NORMAL",
         "customPalette": {
           "id": "__dku_custom__",
@@ -185,7 +185,6 @@
         "gridLonDeg": 0.6,
         "gridLatDeg": 0.6
       },
-      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAYElEQVRoQ+3UAREAQAiEQO1f+gN8A1wbCMztHLs99u94uG6cYYZjBCQdE/q9wzDDMQKSjgk1WpKWdIyApGNCrbSkJR0jIOmYUCstaUnHCEg6JtRKS1rSMQKSjgm10ueSfinJACn8bS8UAAAAAElFTkSuQmCC",
       "disableSafetyLimits": false,
       "useLiveProcessingIfAvailable": true,
       "legendPlacement": "OUTER_RIGHT"
@@ -197,11 +196,11 @@
   "name": "Avg. of sensor_15 by Nb_Cycles on histo_FD001_RUL_features",
   "dashboardCreationId": "qvfLhv0",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627310395835
+    "lastModifiedOn": 1627365325566
   },
   "creationTag": {
     "versionNumber": 0,
