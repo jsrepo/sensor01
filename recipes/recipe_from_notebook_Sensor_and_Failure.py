@@ -59,4 +59,4 @@ for i in range(1,22):
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
 histo_fd001_python = dataiku.Dataset("histo_FD001_python")
-histo_fd001_python.write_with_schema(pandas_dataframe)
+histo_fd001_python.write_with_schema(df_output)
