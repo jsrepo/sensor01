@@ -156,11 +156,11 @@
   "name": "Nanae_Sensor and Failures\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 18,
+    "versionNumber": 19,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627373498840
+    "lastModifiedOn": 1627373499353
   },
   "creationTag": {
     "versionNumber": 0,
