@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
-      "login": "nanae"
+      "login": "aung-admin"
     },
-    "lastModifiedOn": 1627373165494
+    "lastModifiedOn": 1627388832269
   },
   "creationTag": {
     "versionNumber": 0,
@@ -41,7 +41,9 @@
     },
     "lastModifiedOn": 1627373165494
   },
-  "tags": [],
+  "tags": [
+    "Deep Dive Demo"
+  ],
   "params": {
     "writeWithCopyBadDataBehavior": "NOVERIFY_ERROR",
     "connection": "design_sandbox",

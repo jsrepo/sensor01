@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "nanae"
+      "login": "aung-admin"
     },
-    "lastModifiedOn": 1627373219030
+    "lastModifiedOn": 1627388832266
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +54,8 @@
     "lastModifiedOn": 1626832394412
   },
   "tags": [
-    "モデルの適用"
+    "モデルの適用",
+    "Deep Dive Demo"
   ],
   "customFields": {},
   "checklists": {
