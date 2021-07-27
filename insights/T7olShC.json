@@ -1,0 +1,171 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "histo_FD001_RUL_features",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "scatter",
+      "variant": "normal",
+      "name": "sensor_15 vs sensor_21",
+      "userEditedName": false,
+      "genericDimension0": [],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [
+        {
+          "column": "sensor_15",
+          "type": "NUMERICAL",
+          "treatAsAlphanum": false,
+          "sortBy": "NATURAL",
+          "sortAscending": false,
+          "isA": "ua"
+        }
+      ],
+      "uaYDimension": [
+        {
+          "column": "sensor_21",
+          "type": "NUMERICAL",
+          "treatAsAlphanum": false,
+          "sortBy": "NATURAL",
+          "sortAscending": false,
+          "isA": "ua"
+        }
+      ],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [
+        {
+          "column": "maintenance_plan",
+          "type": "ALPHANUM",
+          "treatAsAlphanum": false,
+          "isA": "ua",
+          "adminLevel": 0
+        }
+      ],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": true,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 1,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "dku_dss_next",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,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",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "nanae",
+  "listed": false,
+  "name": "sensor_15 vs sensor_21 on histo_FD001_RUL_features",
+  "dashboardCreationId": "qvfLhv0",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627374426933
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627374426933
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
