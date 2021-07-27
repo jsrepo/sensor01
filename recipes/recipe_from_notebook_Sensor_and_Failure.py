@@ -57,7 +57,3 @@ for i in range(1,22):
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 dku_output.write_with_schema(df_output)
 
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-# Recipe outputs
-histo_fd001_rul_features = dataiku.Dataset("histo_FD001_RUL_features")
-histo_fd001_rul_features.write_with_schema(pandas_dataframe)
