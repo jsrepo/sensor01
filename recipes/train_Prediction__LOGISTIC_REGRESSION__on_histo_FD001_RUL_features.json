@@ -18,7 +18,7 @@
     "main": {
       "items": [
         {
-          "ref": "histo_FD001_training",
+          "ref": "histo_FD001_RUL_features",
           "deps": []
         }
       ]
@@ -36,11 +36,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627258185281
+    "lastModifiedOn": 1627365247771
   },
   "creationTag": {
     "versionNumber": 0,
