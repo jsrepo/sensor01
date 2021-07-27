@@ -54,8 +54,7 @@ for i in range(1,22):
     del df_output["w10_cycles_" + current_sensor + "_min"]
     del df_output["w10_cycles_" + current_sensor + "_max"]
 
-# -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
-dku_output.write_with_schema(df_output)
+
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Recipe outputs
