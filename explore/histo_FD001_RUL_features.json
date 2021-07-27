@@ -78,12 +78,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of w10_cycles_sensor_1_avg, descending"
+                "label": "Average of w10_cycles_sensor_15_avg, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of w10_cycles_sensor_1_avg, ascending",
+                "label": "Average of w10_cycles_sensor_15_avg, ascending",
                 "sortAscending": true
               },
               {
@@ -110,7 +110,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "w10_cycles_sensor_1_avg",
+            "column": "w10_cycles_sensor_15_avg",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -172,8 +172,8 @@
         "animationRepeat": true,
         "colorOptions": {
           "singleColor": "#2678B1",
-          "transparency": 0.75,
-          "colorPalette": "default",
+          "transparency": 0.7,
+          "colorPalette": "dku_dss_next",
           "ccScaleMode": "NORMAL",
           "customPalette": {
             "id": "__dku_custom__",
@@ -209,7 +209,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAYElEQVRoQ+3UAREAQAiEQO1f+gN8A1wbCMztHLs99u94uG6cYYZjBCQdE/q9wzDDMQKSjgk1WpKWdIyApGNCrbSkJR0jIOmYUCstaUnHCEg6JtRKS1rSMQKSjgm10ueSfinJACn8bS8UAAAAAElFTkSuQmCC",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAGBJREFUaEPt1AERAEAIhEDtX/oDfANcGwjM7Ry7PfbveLhunGGGYwQkHRP6vcMwwzECko4JNVqSlnSMgKRjQq20pCUdIyDpmFArLWlJxwhIOibUSkta0jECko4JtdLnkn4pyQAp/G0vFAAAAABJRU5ErkJggg\u003d\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
