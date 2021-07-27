@@ -48,11 +48,33 @@
   "charts": [
     {
       "copySelectionFromScript": true,
-      "engineType": "LINO",
+      "engineType": "SQL",
+      "refreshableSelection": {
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        },
+        "autoRefreshSample": false,
+        "_refreshTrigger": 2
+      },
       "def": {
         "type": "lines",
         "variant": "normal",
-        "name": "Avg. of w10_cycles_sensor_1_avg by Nb_Cycles",
+        "name": "Avg. of w10_cycles_sensor_15_avg by Nb_Cycles",
         "userEditedName": false,
         "genericDimension0": [
           {
@@ -62,7 +84,7 @@
               "mode": "FIXED_NB",
               "nbBins": 30,
               "binSize": 100,
-              "emptyBinsMode": "ZEROS"
+              "emptyBinsMode": "AVERAGE"
             },
             "maxValues": 100,
             "generateOthersCategory": true,
@@ -78,12 +100,12 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of w10_cycles_sensor_1_avg, descending"
+                "label": "Average of w10_cycles_sensor_15_avg, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of w10_cycles_sensor_1_avg, ascending",
+                "label": "Average of w10_cycles_sensor_15_avg, ascending",
                 "sortAscending": true
               },
               {
@@ -110,14 +132,14 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "w10_cycles_sensor_1_avg",
+            "column": "w10_cycles_sensor_15_avg",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
             "isA": "measure",
             "displayAxis": "axis1",
             "displayType": "column",
-            "computeMode": "DIFFERENCE",
+            "computeMode": "NORMAL",
             "computeModeDim": 0
           },
           {
@@ -152,13 +174,13 @@
         "filters": [],
         "axis1LogScale": false,
         "axis2LogScale": false,
-        "includeZero": true,
+        "includeZero": false,
         "smoothing": true,
         "showLegend": true,
         "showXAxis": false,
         "showInChartValues": false,
         "showInChartLabels": true,
-        "strokeWidth": 1,
+        "strokeWidth": 2,
         "fillOpacity": 0.6,
         "showXAxisLabel": true,
         "showYAxisLabel": true,
@@ -209,7 +231,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAA7klEQVRoQ2NkGGGAcYT5l2HUw8M9xkdjeDSGh1kIjCbpYRahGN4Z2TGskruN/c5kr5/DOZZRYli+bGvpwy7v7hHjYbniDVqPegOujRgPM4SuYmZYHfZ35Hh4OPsU6reRXUqPgAge7R4O+0gezcPDPYpHY3g0hodZCIwm6WEWoaMDAKNJejRJD7MQGE3SwyxCCZfSSuWb5O51+j0arh7HSNLyFZsDH3b4rh8xHh6uHoX5a7TQGlExvG3bbXaCHlZFV6HCwMBwByoIYuMHL588AKcqcRmF/zCVMDFCesmRV0DS5Oio+GM0SZMTikNJDwCJZiMpfoPTmgAAAABJRU5ErkJggg\u003d\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAB10lEQVRoQ2NkGGGAcaT4t2vT7UdlfqpyI8LD644/XxtkKRkMitwR4WHkVDzq4eGUp9cef14WbCnZJV+yU/Fhj/v90SQ9nGJ33fEXrUGWEtXofhrNw8MplrH5ZdjE8Ppjz3MCrSSnrD3+YnKwpUQurogbUh5ed/iJWpCtzC1cnpGr2u78qM1zL75UOqQ8jM8jchWbJz7q8M0nlCWHjIfXHnsxOdgKd1Il5FGY/JDxMLEeIqRu0Hh4w6kXLn9//1cLtpachs3RshVbEx53eC8g5CFC8oPGw8gO3XL4oaCPrfx7Qo4nR35QepgcjxCrZ8A8vObY8+khVpKZ8uXbWh92emE0AYn1AKnqBszDpDqUWuoHzMPyZVuWPezyiaKWR4g1h+4e3nb7P7uXKuNPYh1IbXV09zC1PUCqeaMeJjXEhpp6msfwumOv7YOsRA8OloChuYcHi0dHOw+DLSZo5Z7RJE2rkB0s5o7G8GCJCVq5g0ox/J+RgYHxP60cSU1zKfawXMWWBY86fBKo6ShamkW2h9ccfzErxFIijZaOo4XZRHt49bEXPqFWEltEyjbyvuny/0wLx9DDTLweXnf85QKWv/+6/Wwkr9LDMfSwg+gYpodj6GHHiPMwACnwaCm9fFaGAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
