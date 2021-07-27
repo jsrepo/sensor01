@@ -51,8 +51,8 @@ for i in range(1,22):
     del df_output[current_full_sensor_max]
     del df_output[current_full_sensor_min]
     del df_output["w_full_history_" + current_sensor + "_avg"]
-    ##del df_output["w10_cycles_" + current_sensor + "_min"]
-    ##del df_output["w10_cycles_" + current_sensor + "_max"]
+    del df_output["w10_cycles_" + current_sensor + "_min"]
+    del df_output["w10_cycles_" + current_sensor + "_max"]
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 dku_output.write_with_schema(df_output)
