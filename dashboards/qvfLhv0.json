@@ -95,6 +95,26 @@
             "insightType": "chart",
             "displayMode": "INSIGHT",
             "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 8,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "summary",
+              "advancedOptions": {}
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "obhUcES",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
           }
         ]
       },
@@ -104,7 +124,28 @@
     {
       "id": "8O0CxNX",
       "grid": {
-        "tiles": []
+        "tiles": [
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": -1,
+              "left": -1,
+              "width": 8,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "displayMode": "summary",
+              "advancedOptions": {}
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "hXbW4ji",
+            "insightType": "saved-model_report",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
       },
       "title": "故障予測",
       "showTitle": true
@@ -115,11 +156,11 @@
   "name": "Nanae_Sensor and Failures\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627373487396
+    "lastModifiedOn": 1627373498840
   },
   "creationTag": {
     "versionNumber": 0,
