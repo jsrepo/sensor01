@@ -10,6 +10,15 @@
         "modes": [
           "READ"
         ]
+      },
+      {
+        "objectRef": {
+          "objectId": "l1IJIo9r",
+          "objectType": "SAVED_MODEL"
+        },
+        "modes": [
+          "READ"
+        ]
       }
     ]
   },
@@ -205,11 +214,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 17,
+    "versionNumber": 18,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627356157970
+    "lastModifiedOn": 1627373425632
   },
   "creationTag": {
     "versionNumber": 0,
