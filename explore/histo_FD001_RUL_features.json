@@ -78,23 +78,23 @@
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of w10_cycles_sensor_15_avg, descending"
+                "label": "Average of sensor_15, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 0,
-                "label": "Average of w10_cycles_sensor_15_avg, ascending",
+                "label": "Average of sensor_15, ascending",
                 "sortAscending": true
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 1,
-                "label": "Average of sensor_15, descending"
+                "label": "Average of w10_cycles_sensor_15_avg, descending"
               },
               {
                 "type": "AGGREGATION",
                 "measureIdx": 1,
-                "label": "Average of sensor_15, ascending",
+                "label": "Average of w10_cycles_sensor_15_avg, ascending",
                 "sortAscending": true
               }
             ],
@@ -110,7 +110,7 @@
         "animationDimension": [],
         "genericMeasures": [
           {
-            "column": "w10_cycles_sensor_15_avg",
+            "column": "sensor_15",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
@@ -121,7 +121,7 @@
             "computeModeDim": 0
           },
           {
-            "column": "sensor_15",
+            "column": "w10_cycles_sensor_15_avg",
             "function": "AVG",
             "type": "NUMERICAL",
             "displayed": true,
