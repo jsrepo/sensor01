@@ -19,7 +19,23 @@
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
   "owner": "nanae",
-  "permissions": [],
+  "permissions": [
+    {
+      "user": "judy",
+      "admin": true,
+      "readProjectContent": false,
+      "writeProjectContent": true,
+      "exportDatasetsData": true,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    }
+  ],
   "additionalDashboardUsers": {
     "users": []
   },
@@ -189,11 +205,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627310519706
+    "lastModifiedOn": 1627356157970
   },
   "creationTag": {
     "versionNumber": 0,
