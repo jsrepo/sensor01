@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "aung-admin"
+      "login": "nanae"
     },
-    "lastModifiedOn": 1627388832261
+    "lastModifiedOn": 1627427563700
   },
   "creationTag": {
     "versionNumber": 0,
@@ -179,23 +179,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_1_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_1_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_1_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_2_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_2_max",
         "type": "double"
       },
       {
@@ -203,23 +187,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_3_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_3_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_3_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_4_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_4_max",
         "type": "double"
       },
       {
@@ -227,23 +195,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_5_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_5_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_5_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_6_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_6_max",
         "type": "double"
       },
       {
@@ -251,23 +203,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_7_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_7_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_7_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_8_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_8_max",
         "type": "double"
       },
       {
@@ -275,23 +211,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_9_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_9_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_9_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_10_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_10_max",
         "type": "double"
       },
       {
@@ -299,23 +219,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_11_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_11_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_11_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_12_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_12_max",
         "type": "double"
       },
       {
@@ -323,23 +227,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_13_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_13_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_13_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_14_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_14_max",
         "type": "double"
       },
       {
@@ -347,23 +235,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_15_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_15_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_15_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_16_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_16_max",
         "type": "double"
       },
       {
@@ -371,35 +243,11 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_17_min",
-        "type": "bigint"
-      },
-      {
-        "name": "w10_cycles_sensor_17_max",
-        "type": "bigint"
-      },
-      {
         "name": "w10_cycles_sensor_17_avg",
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_18_min",
-        "type": "bigint"
-      },
-      {
-        "name": "w10_cycles_sensor_18_max",
-        "type": "bigint"
-      },
-      {
         "name": "w10_cycles_sensor_18_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_19_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_19_max",
         "type": "double"
       },
       {
@@ -407,23 +255,7 @@
         "type": "double"
       },
       {
-        "name": "w10_cycles_sensor_20_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_20_max",
-        "type": "double"
-      },
-      {
         "name": "w10_cycles_sensor_20_avg",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_21_min",
-        "type": "double"
-      },
-      {
-        "name": "w10_cycles_sensor_21_max",
         "type": "double"
       },
       {
@@ -467,23 +299,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_1_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_1_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_1_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_2_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_2_max",
         "type": "double"
       },
       {
@@ -491,23 +307,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_3_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_3_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_3_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_4_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_4_max",
         "type": "double"
       },
       {
@@ -515,23 +315,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_5_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_5_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_5_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_6_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_6_max",
         "type": "double"
       },
       {
@@ -539,23 +323,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_7_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_7_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_7_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_8_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_8_max",
         "type": "double"
       },
       {
@@ -563,23 +331,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_9_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_9_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_9_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_10_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_10_max",
         "type": "double"
       },
       {
@@ -587,23 +339,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_11_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_11_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_11_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_12_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_12_max",
         "type": "double"
       },
       {
@@ -611,23 +347,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_13_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_13_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_13_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_14_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_14_max",
         "type": "double"
       },
       {
@@ -635,23 +355,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_15_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_15_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_15_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_16_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_16_max",
         "type": "double"
       },
       {
@@ -659,35 +363,11 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_17_min",
-        "type": "bigint"
-      },
-      {
-        "name": "w_full_history_sensor_17_max",
-        "type": "bigint"
-      },
-      {
         "name": "w_full_history_sensor_17_avg",
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_18_min",
-        "type": "bigint"
-      },
-      {
-        "name": "w_full_history_sensor_18_max",
-        "type": "bigint"
-      },
-      {
         "name": "w_full_history_sensor_18_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_19_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_19_max",
         "type": "double"
       },
       {
@@ -695,23 +375,7 @@
         "type": "double"
       },
       {
-        "name": "w_full_history_sensor_20_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_20_max",
-        "type": "double"
-      },
-      {
         "name": "w_full_history_sensor_20_avg",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_21_min",
-        "type": "double"
-      },
-      {
-        "name": "w_full_history_sensor_21_max",
         "type": "double"
       },
       {
