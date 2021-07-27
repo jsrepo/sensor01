@@ -22,6 +22,7 @@
       "color": "#94be8e"
     },
     "charts": {},
-    "recipe-editor": {}
+    "recipe-editor": {},
+    "deleted-recipe-editor": {}
   }
 }
