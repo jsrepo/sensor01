@@ -1,0 +1,29 @@
+{
+  "type": "saved-model_report",
+  "params": {
+    "savedModelSmartId": "l1IJIo9r"
+  },
+  "owner": "nanae",
+  "listed": false,
+  "name": "Full report of model Prediction (RANDOM_FOREST_CLASSIFICATION) on histo_FD001_RUL_features",
+  "dashboardCreationId": "qvfLhv0",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627373426006
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1627373426006
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
