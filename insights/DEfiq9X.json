@@ -149,7 +149,7 @@
       "colorOptions": {
         "singleColor": "#2678B1",
         "transparency": 0.75,
-        "colorPalette": "dku_pastel2",
+        "colorPalette": "dku_pastel1",
         "ccScaleMode": "NORMAL",
         "customPalette": {
           "id": "__dku_custom__",
@@ -196,11 +196,11 @@
   "name": "Avg. of sensor_15 by Nb_Cycles on histo_FD001_RUL_features",
   "dashboardCreationId": "qvfLhv0",
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627365325566
+    "lastModifiedOn": 1627365337341
   },
   "creationTag": {
     "versionNumber": 0,
