@@ -2634,7 +2634,7 @@
           }
         }
       },
-      "enabled": false
+      "enabled": true
     },
     "gbt_regression": {
       "n_estimators": {
@@ -3077,7 +3077,7 @@
         }
       },
       "n_jobs": 2,
-      "enabled": true
+      "enabled": false
     },
     "neural_network": {
       "layer_sizes": {
@@ -3464,7 +3464,7 @@
       "seed": 1337,
       "enable_early_stopping": true,
       "early_stopping_rounds": 4,
-      "enabled": true
+      "enabled": false
     },
     "deep_learning_sparkling": {
       "enabled": false,
