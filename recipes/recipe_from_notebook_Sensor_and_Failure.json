@@ -22,7 +22,7 @@
     "main": {
       "items": [
         {
-          "ref": "engine_histo",
+          "ref": "histo_FD001_RUL_prepared_movingavg",
           "deps": []
         }
       ]
@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 2,
     "lastModifiedBy": {
-      "login": "nanae"
+      "login": "aung-admin"
     },
-    "lastModifiedOn": 1627456715366
+    "lastModifiedOn": 1627388832264
   },
   "creationTag": {
     "versionNumber": 0,
