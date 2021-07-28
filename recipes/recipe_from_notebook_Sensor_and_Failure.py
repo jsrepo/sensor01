@@ -6,7 +6,7 @@ from dataiku import pandasutils as pdu
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Declare input and output objects
-dku_input = dataiku.Dataset("engine_hiso")
+dku_input = dataiku.Dataset("engine_histo")
 dku_output = dataiku.Dataset("engine_histo_prepared")
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
