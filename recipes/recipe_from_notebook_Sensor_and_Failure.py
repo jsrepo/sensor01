@@ -6,8 +6,8 @@ from dataiku import pandasutils as pdu
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 # Declare input and output objects
-dku_input = dataiku.Dataset("histo_FD001_RUL_prepared_movingavg")
-dku_output = dataiku.Dataset("histo_FD001_RUL_features")
+dku_input = dataiku.Dataset("engine_hiso")
+dku_output = dataiku.Dataset("engine_histo_prepared")
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 df_input = dku_input.get_dataframe()
@@ -56,4 +56,3 @@ for i in range(1,22):
 
 # -------------------------------------------------------------------------------- NOTEBOOK-CELL: CODE
 dku_output.write_with_schema(df_output)
-
