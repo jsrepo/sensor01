@@ -3,7 +3,7 @@ FROM "sandbox"."NANAE_SENSORANDFAILURES_new_fd001_to_scored" "T",
 (
 SELECT 
 "unit_id" , max("Nb_Cycles") as "max_cycle"
-FROM "sandbox"."sandbox"."NANAE_SENSORANDFAILURES_new_fd001_to_scored"
+FROM "sandbox"."NANAE_SENSORANDFAILURES_new_fd001_to_scored"
 WHERE "prediction" in ('urgent','short')
 GROUP BY "unit_id"
 ) R
