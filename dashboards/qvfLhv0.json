@@ -241,7 +241,7 @@
               "top": 3,
               "left": 0,
               "width": 8,
-              "height": 2
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -347,7 +347,7 @@
               "top": 3,
               "left": 8,
               "width": 3,
-              "height": 3
+              "height": 4
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -482,11 +482,11 @@
   "name": "Nanae_Sensor and Failures\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 58,
+    "versionNumber": 59,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627540289934
+    "lastModifiedOn": 1627540307020
   },
   "creationTag": {
     "versionNumber": 0,
