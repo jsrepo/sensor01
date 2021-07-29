@@ -36,6 +36,27 @@
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
+  "bundleExporterSettings": {
+    "exportOptions": {
+      "exportUploads": false,
+      "exportManagedFS": false,
+      "exportAnalysisModels": false,
+      "exportSavedModels": false,
+      "exportManagedFolders": false,
+      "exportModelEvaluationStores": false,
+      "exportAllInputDatasets": false,
+      "exportAllDatasets": false,
+      "exportAllInputManagedFolders": false,
+      "exportGitRepository": false,
+      "exportInsightsData": false,
+      "useManualPluginsInfo": false,
+      "includedDatasetsData": [],
+      "includedSavedModels": [],
+      "includedModelEvaluationStores": [],
+      "includedManagedFolders": [],
+      "shareAllInputDatasets": false
+    }
+  },
   "owner": "nanae",
   "permissions": [
     {
@@ -223,11 +244,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 25,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627374745227
+    "lastModifiedOn": 1627574204665
   },
   "creationTag": {
     "versionNumber": 0,
