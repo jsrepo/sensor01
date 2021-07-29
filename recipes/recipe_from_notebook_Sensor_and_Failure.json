@@ -40,11 +40,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 4,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627559500333
+    "lastModifiedOn": 1627563943808
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,7 +54,8 @@
     "lastModifiedOn": 1627388442911
   },
   "tags": [
-    "Deep Dive Demo"
+    "Deep Dive Demo",
+    "モデルの作成"
   ],
   "customFields": {},
   "checklists": {
