@@ -8,13 +8,30 @@
       "columnsSelection": {
         "mode": "ALL"
       },
-      "columnWidthsByName": {},
+      "columnWidthsByName": {
+        "unit_id": 100,
+        "Nb_Cycles": 100,
+        "prediction": 100,
+        "proba_long": 113,
+        "proba_medium": 155,
+        "proba_short": 148,
+        "proba_urgent": 155
+      },
       "coloring": {
-        "scheme": "MEANING_AND_STATUS",
-        "individualColumns": [],
+        "scheme": "INDIVIDUAL_COLUMNS_VALUES",
+        "individualColumns": [
+          "prediction",
+          "proba_urgent",
+          "proba_short"
+        ],
         "valueColoringMode": "HASH"
       },
-      "sorting": [],
+      "sorting": [
+        {
+          "column": "proba_urgent",
+          "ascending": false
+        }
+      ],
       "analysisColumnData": {},
       "explorationSampling": {
         "selection": {
@@ -43,7 +60,9 @@
         "autoRefreshSample": false,
         "_refreshTrigger": 0
       },
-      "exploreUIParams": {},
+      "exploreUIParams": {
+        "autoRefresh": true
+      },
       "globalSearchQuery": "",
       "explorationFilters": [],
       "previewMode": "ALL_ROWS"
@@ -54,11 +73,11 @@
   "name": "new_FD001_alerts",
   "dashboardCreationId": "qvfLhv0",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627373695491
+    "lastModifiedOn": 1627540095944
   },
   "creationTag": {
     "versionNumber": 0,
