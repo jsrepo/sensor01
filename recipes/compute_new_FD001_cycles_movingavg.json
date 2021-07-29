@@ -31,11 +31,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1626832024004
+    "lastModifiedOn": 1627549274150
   },
   "creationTag": {
     "versionNumber": 0,
@@ -44,7 +44,9 @@
     },
     "lastModifiedOn": 1626831928711
   },
-  "tags": [],
+  "tags": [
+    "モデルの適用"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": []
