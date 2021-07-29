@@ -135,7 +135,7 @@
               "top": 0,
               "left": 7,
               "width": 4,
-              "height": 2
+              "height": 3
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -238,10 +238,10 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 2,
+              "top": 3,
               "left": 0,
               "width": 8,
-              "height": 3
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -344,7 +344,7 @@
           {
             "tileType": "INSIGHT",
             "box": {
-              "top": 2,
+              "top": 3,
               "left": 8,
               "width": 3,
               "height": 3
@@ -453,7 +453,7 @@
               "top": 0,
               "left": 0,
               "width": 7,
-              "height": 2
+              "height": 3
             },
             "clickAction": "OPEN_INSIGHT",
             "tileParams": {
@@ -482,11 +482,11 @@
   "name": "Nanae_Sensor and Failures\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 56,
+    "versionNumber": 57,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627540250248
+    "lastModifiedOn": 1627540273084
   },
   "creationTag": {
     "versionNumber": 0,
