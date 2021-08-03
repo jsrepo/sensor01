@@ -232,7 +232,6 @@
       "python": {}
     },
     "displayedState": {
-      "partition": "NP",
       "columns": [],
       "metrics": []
     }
@@ -241,16 +240,15 @@
     "runOnBuild": false,
     "checks": [],
     "displayedState": {
-      "partition": "NP",
       "checks": []
     }
   },
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 26,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1628030073468
+    "lastModifiedOn": 1627574204665
   },
   "creationTag": {
     "versionNumber": 0,
