@@ -5,11 +5,11 @@
   "name": "aaa",
   "active": false,
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627960619014
+    "lastModifiedOn": 1627960666341
   },
   "checklists": {
     "checklists": []
@@ -20,10 +20,50 @@
     "suppressTriggersWhileRunning": true
   },
   "tags": [],
-  "triggers": [],
+  "triggers": [
+    {
+      "id": "EUmX2y5V",
+      "type": "temporal",
+      "name": "Time-based",
+      "delay": 5,
+      "active": true,
+      "params": {
+        "repeatFrequency": 1,
+        "frequency": "Weekly",
+        "startingFrom": "2021-08-03T03:17:00.000Z",
+        "daysOfWeek": [
+          "Tuesday"
+        ],
+        "minute": 17,
+        "hour": 12,
+        "timezone": "SERVER"
+      }
+    }
+  ],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "build_0_true",
+        "type": "build_flowitem",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "builds": [],
+          "jobType": "RECURSIVE_BUILD",
+          "refreshHiveMetastore": true,
+          "proceedOnFailure": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
