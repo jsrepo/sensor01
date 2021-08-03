@@ -234,9 +234,7 @@
     "displayedState": {
       "partition": "NP",
       "columns": [],
-      "metrics": [
-        "external:ビュー数"
-      ]
+      "metrics": []
     }
   },
   "metricsChecks": {
@@ -248,11 +246,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 27,
+    "versionNumber": 28,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1628029971071
+    "lastModifiedOn": 1628030073468
   },
   "creationTag": {
     "versionNumber": 0,
