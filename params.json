@@ -232,23 +232,27 @@
       "python": {}
     },
     "displayedState": {
+      "partition": "NP",
       "columns": [],
-      "metrics": []
+      "metrics": [
+        "external:ビュー数"
+      ]
     }
   },
   "metricsChecks": {
     "runOnBuild": false,
     "checks": [],
     "displayedState": {
+      "partition": "NP",
       "checks": []
     }
   },
   "versionTag": {
-    "versionNumber": 26,
+    "versionNumber": 27,
     "lastModifiedBy": {
       "login": "nanae"
     },
-    "lastModifiedOn": 1627574204665
+    "lastModifiedOn": 1628029971071
   },
   "creationTag": {
     "versionNumber": 0,
