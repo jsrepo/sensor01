@@ -25,6 +25,8 @@
     "recipe-editor": {},
     "deleted-recipe-editor": {},
     "Deep Dive Demo": {},
-    "Demo Input Data": {}
+    "Demo Input Data": {},
+    "origin:sql_import": {},
+    "design_sandbox": {}
   }
 }
