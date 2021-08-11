@@ -700,8 +700,9 @@
       "avg": false,
       "lag": false,
       "leadValues": "1",
+      "$selected": false,
       "stddev": false,
-      "value": true,
+      "value": false,
       "leadDiff": false,
       "first": false
     },
@@ -902,10 +903,6 @@
           },
           {
             "name": "setting_3",
-            "type": "double"
-          },
-          {
-            "name": "Nb_Cycles_before_failure",
             "type": "double"
           },
           {
