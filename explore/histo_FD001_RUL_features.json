@@ -209,7 +209,7 @@
           "gridLonDeg": 0.6,
           "gridLatDeg": 0.6
         },
-        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAuBJREFUaEPt2F9IFEEcB/DvnkYPIddLhSAh3c6ZIkRhUGmmoEFQnTerQhIUZBaIYmVWEmQSFmZ/yB4y6SEIA3PnPA0KNDxF80XwoVC82SuJKKKH6K1Qb2MPlfM0Urpb99bbx2GZ+X3m95vd366ANXYJa8yLGNg0GXd/2ALHtm+hHnNmuGNiO+IsWzET/wmWmSug4ok5uDnBTHkKQe0FBCv8fgGSvdncYJk3QMAvCJiCKoyCiq/NDi4EsAtAAiRSEXyOzVnSMk8CsAfwp0NKqTM/WBNqaEFNBbX3rA2wpnSNJ8OZOml6cONQdlNN5kD1Uj1F9J1htyLCISqLMJ08DQVk7F+NU/SBZW9F8Ht1HijzWkikwXxgpjwHFY/Nw/rUeOQK03Dxe3CSc9ENZvwVKDkEeTIRUvLXAIbxckDdDdUyDElsgdt3Fg7bI8i8AxIpBPPZQW3ev8GNW9LXVAuuC/5ZpAOUuCH7qhCHNyiwvQuMa/fsUBimfx9H3PrKQEnL3hJI9rboA7u8Epx2eVHg7T4rim0/tfG0l+1Hxw4XdwXu6VScKBBdYPwxKCmLQrDyAE6xMjjw24M5VRezPPfnxxh/AkpOLcDJE3Wh3ZWx38MveA6KiOfWSJ71ckZvIJPhvIxzhkOfvuFUBs1lHPBsUHfeZu+8sG9gNELe2D+tSG3s0vO2800oJt/1XNRwJR1pfAwc6R0G8+ZrH+V3hw8cOb+3vzvi64UsoG+G3UpuY2LpeM3n1jJQUq83VltPP7Dr48amzSfrqzP7F3RPeqMjC+7ri8ePJBmUOPSGrU4vzZQ2ULHEKFh9S9og6v8vaZk3w4IvcJKbYMoggIdQZ/ZDSik3iHFBGCsHt4ysw5mMqcAsKoSGofzW2qyeUjAlHVR8b0Tkyj8PGS86uKHrdF5C95jqx7NLWZ4RMO8NUPtVowND41t+hud+lkWbcFUbDwNs1vIzbIBgwxFCDByOXTTyHH8ATfvUKbpOPjAAAAAASUVORK5CYII\u003d",
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAsBJREFUaEPt2G9IE3EYB/DvbVkQUQSZESikv7tBGBHuRX9AAxEiULvf5Ywg8oWg9aI/YOkbSetFWr6piLBeZG8kp3fXMkKoMI2aLyZB+WZ3PyUpCmsQRkg5dKG5GJtDZM3d3dzLO3b3fO77PNuzcUizF5dmXlgXrLB8UDISHah1waq/GKLjRXqA+/vX4Hv2eczOTsNm/wGadz8Mt2bCsn4aHHIAzgnOXg1xxweLgzUvOLwCsBFUqI1sa4sm7L8N2AdhmwlEz7G1wJdCNjRzs/DoexDiApgO/YKL/2b9hMPC3s/rUbp9Kn3APl8GnM6g5cEtbwp3NewffL/YFmm+GXaPbIAr/2cMRmFbQcnXpVZl84E9jKCcsBhYnM3K/JuWwk6CkgeLJHwMlDw0d8KK1gEqVEHW90Lih+YxstYDjmMIBe9A2jkOxb8bovAOyuhlSKTR5OCFXzxz36vl/FvI+jkgtBaScG0e9mR8M4LTtRD5q1DZFYikESorgEiG48GNO8NP9XU4zP+OKdwz5kB5rn/ueFHfLffA1KGh61nVuDBxbxuocBGyvwmSo8l8YFnzQhL2RRbe9rroZt2BgTP/jil6BSjf/bfVWSUk0gVF6wUVSs0DVlkVRNIRr2C3u8LucnXPxJx/xLJxhHw0zwyr+mOIfNlSBSd63nAz3OY7uKXO+TKQKMw8LZ0s6cJ1DZdwkr0W/tcyzpNbTTjZLZXq669sworeBcpXwq2VwCU8SwV+5cA9/lwcdYylAhl5z+SDZe04JKEz1dDw/ZMLVlhnS07tqQbn88n0ABtFGVFH4gmreh9CaAblvVBZKzibnmX7VDRRVnjCgN7/sHh4xkpaM6vL6r/cnYJE6o2IXN6HVrsvA5mbvAAmQfnidl9BRo1zOAh19CzEvBtGB0bXl3hLm0y8CjZZYMsudzXhZT8yk73hD3BWzSmuUcwDAAAAAElFTkSuQmCC",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
@@ -787,6 +787,153 @@
           "gridLatDeg": 0.5
         },
         "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAc5JREFUaEPtWLuOgkAUPWMkNlY0dn4GnQWFjfEH+ABCqCysTIzaWVlYGkyoiDWJHYVfwSdY2BgLLWxkA1nIxuzqzIAjLkMDJPfeOefcMzwuiaIoQomO0WiE+XyeIVoulxgMBoUhJGUjXBizPwpJwq9W+N31P67Dm80GhmFQ63a73VCr1bL40hN2HAemaWaAWQnfK1M9wtPpNJrNZokQ8Tm9pvZMjkDf99Hr9ZIKiqL8Wommw8fjEaqqUiF5aYfP5zOazWYGZLFYYDgcZvfb7Rb9fp8K6KOge8Kr1QqWZWUpQRCg2+0m9/+C8L0YbyOcu3UAaCzNRPjnHk4TPc9Dp9Ohxttut6ljWQOfET4cDmi1WtRlX2ppahQPAp8RZl3j7YR3ux10XWfFzR0vnPD1ekWj0eAGnDeRhGEYnU4naJqGer2et17p8wvpMCGElJ7pN0BJmKdTssM8qgnKkZbmEfqjLB1/WsZTwfV6nfzZ2LbNzPmjCBcxtZSEmT0iLqF6D614D08mE8TTiMvlwjXikZYW51Dmlapn6co9pdMRz36/h+u6GI/H7DaRf0vMmglLkHuYR2r5WuJRTVCOtDSP0NLSPKoJyqmepQUJW5plvgD3phn4xY1xsgAAAABJRU5ErkJggg\u003d\u003d",
+        "disableSafetyLimits": false,
+        "useLiveProcessingIfAvailable": true,
+        "legendPlacement": "OUTER_RIGHT"
+      },
+      "maxDataBytes": 157286400
+    },
+    {
+      "copySelectionFromScript": true,
+      "engineType": "LINO",
+      "def": {
+        "type": "lines",
+        "variant": "normal",
+        "name": "Avg. of sensor_3 by time",
+        "userEditedName": false,
+        "genericDimension0": [
+          {
+            "column": "time",
+            "type": "DATE",
+            "numParams": {
+              "emptyBinsMode": "AVERAGE"
+            },
+            "dateParams": {
+              "mode": "AUTOMATIC"
+            },
+            "maxValues": 0,
+            "generateOthersCategory": true,
+            "oneTickPerBin": false,
+            "filters": [],
+            "isA": "dimension",
+            "possibleSorts": [
+              {
+                "type": "NATURAL",
+                "label": "Natural ordering",
+                "sortAscending": true
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of sensor_3, descending"
+              },
+              {
+                "type": "AGGREGATION",
+                "measureIdx": 0,
+                "label": "Average of sensor_3, ascending",
+                "sortAscending": true
+              }
+            ],
+            "sort": {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            }
+          }
+        ],
+        "genericDimension1": [],
+        "facetDimension": [],
+        "animationDimension": [],
+        "genericMeasures": [
+          {
+            "column": "sensor_3",
+            "function": "AVG",
+            "type": "NUMERICAL",
+            "displayed": true,
+            "isA": "measure",
+            "displayAxis": "axis1",
+            "displayType": "column",
+            "computeMode": "NORMAL",
+            "computeModeDim": 0
+          }
+        ],
+        "xDimension": [],
+        "yDimension": [],
+        "uaXDimension": [],
+        "uaYDimension": [],
+        "uaSize": [],
+        "uaShape": [],
+        "uaColor": [],
+        "uaTooltip": [],
+        "groupDimension": [],
+        "xMeasure": [],
+        "yMeasure": [],
+        "colorMeasure": [],
+        "sizeMeasure": [],
+        "geometry": [],
+        "tooltipMeasures": [],
+        "boxplotBreakdownDim": [],
+        "boxplotValue": [],
+        "filters": [],
+        "axis1LogScale": false,
+        "axis2LogScale": false,
+        "includeZero": false,
+        "smoothing": true,
+        "showLegend": true,
+        "showXAxis": false,
+        "showInChartValues": false,
+        "showInChartLabels": true,
+        "strokeWidth": 1,
+        "fillOpacity": 0.6,
+        "showXAxisLabel": true,
+        "showYAxisLabel": true,
+        "hexbinRadius": 20,
+        "hexbinNumber": 20,
+        "hexbinRadiusMode": "NUM_HEXAGONS",
+        "chartHeight": 200,
+        "singleXAxis": true,
+        "multiTooltips": false,
+        "animationFrameDuration": 3000,
+        "animationRepeat": true,
+        "colorOptions": {
+          "singleColor": "#2678B1",
+          "transparency": 0.75,
+          "colorPalette": "default",
+          "ccScaleMode": "NORMAL",
+          "customPalette": {
+            "id": "__dku_custom__",
+            "name": "Custom Palette",
+            "colors": [],
+            "values": [],
+            "fixedValues": false
+          },
+          "paletteType": "CONTINUOUS",
+          "quantizationMode": "NONE",
+          "numQuantizeSteps": 5,
+          "paletteMiddleValue": 0.0
+        },
+        "bubblesOptions": {
+          "defaultRadius": 5.0,
+          "singleShape": "FILLED_CIRCLE"
+        },
+        "xAxisMode": "NORMAL",
+        "yAxisMode": "NORMAL",
+        "pieOptions": {
+          "donutHoleSize": 54.0
+        },
+        "scatterOptions": {
+          "equalScales": false,
+          "identityLine": false
+        },
+        "mapOptions": {
+          "tilesLayer": "cartodb-positron",
+          "lockSquareGrid": false
+        },
+        "mapGridOptions": {
+          "gridLonDeg": 0.5,
+          "gridLatDeg": 0.5
+        },
+        "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAtdJREFUaEPt2U9o01AcB/CXihNBRFAvbk0yGDtsCsI8Czs4Xd+rc4LDyw4iOA/u4J/mpVPsKv7JS0BFvUwQD7tN/DP7Xp1TEATBgwNB2amw5HXzJgPxYi2rpKNS53RLm/VPsp5a8l7e95Pf470kFYDPPoLPvGAd7KWKB5XJXWm960uxydMVDmLWkyZw3DdgUWExEMjd4RqaL6A9XWERJ5QcCLxPE/jWJ2DWFwBCu0lCMZ+AJ9oFIXva0tCgL8A2UlRYP9fhqG/AS7dZTy5abbE3W6bjnd8LWAnTBxZBJ+3fngTb2xHXYbwAllV2yNTghGfBQYXtS+vwQ/F0bouNNUzH+zKeqnDLYHJT6m7ox3K3xxKmoxZB/Z4AN11MNM5eC8+1RJM7Uw2b50G8M7sULWM2YBI4UpdgCVPDIihSQIkq7eAammpW2IEZHb763wNQzYM7To1snLo/8HPZaaokzlh6+F5+v1VZFOTANk4grmuwhNlNi8Bzv6sZoce4gR4thxIVOsZ11GcfkxV2wtThw7rbhyX8vNsih1+49Zxek1NaxPQWJ+isW8iafx6WI2yvacCPxUGDQ3R3+jr6XO5FqHqFRUzjnKCYpNKrloYulQtaqX/VwfkVNkIvcwNdsb83YbZnlsBPKwUv9XhNgEsNX0q/qoAXbwG7MwAIuVJCl9On4mAZs9s5AFqFhcyQafT+sTCVA1lt34qAZYVOmjrqskO1xJJbU/HQt9UGdLtdRcB2aEllEUuDhtsAp+dbc7CsPpVNrdd0Gmyt2rsOFhU6zgk8AoTFBcl+N8xJWF8rgNPzugJujD7ZPnfj6FcRs5ecwINOQ1Sy/T/BzZjtnyl6Y18cSlQTw1wLD+f/yshlX3Oj510lQ5cz1l9gEScVTkJ66/nEjswG4cICEGSuw+P5hQfTUSAIzywNPi5n0Gr2dWVKVxPgdOx1sNMrVm/t1ytcbxVzmtd3Ff4FvCrjKUzuE2wAAAAASUVORK5CYII\u003d",
         "disableSafetyLimits": false,
         "useLiveProcessingIfAvailable": true,
         "legendPlacement": "OUTER_RIGHT"
