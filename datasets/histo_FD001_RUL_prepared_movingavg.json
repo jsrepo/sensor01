@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "aung-admin"
+      "login": "nanae"
     },
-    "lastModifiedOn": 1627388832261
+    "lastModifiedOn": 1628676073926
   },
   "creationTag": {
     "versionNumber": 0,
@@ -164,10 +164,6 @@
       },
       {
         "name": "setting_3",
-        "type": "double"
-      },
-      {
-        "name": "Nb_Cycles_before_failure",
         "type": "double"
       },
       {
