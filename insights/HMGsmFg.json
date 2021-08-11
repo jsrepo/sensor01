@@ -1,0 +1,218 @@
+{
+  "type": "chart",
+  "params": {
+    "datasetSmartName": "histo_FD001_RUL_features",
+    "engineType": "LINO",
+    "refreshableSelection": {
+      "selection": {
+        "useMemTable": false,
+        "filter": {
+          "distinct": false,
+          "enabled": false
+        },
+        "partitionSelectionMethod": "ALL",
+        "latestPartitionsN": 1,
+        "ordering": {
+          "enabled": false,
+          "rules": []
+        },
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02,
+        "withinFirstN": -1,
+        "maxReadUncompressedBytes": -1
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "def": {
+      "type": "lines",
+      "variant": "normal",
+      "name": "Avg. of sensor_3 by Nb_Cycles",
+      "userEditedName": false,
+      "genericDimension0": [
+        {
+          "column": "Nb_Cycles",
+          "type": "NUMERICAL",
+          "numParams": {
+            "mode": "NONE",
+            "nbBins": 30,
+            "binSize": 100,
+            "emptyBinsMode": "ZEROS"
+          },
+          "maxValues": 100,
+          "generateOthersCategory": true,
+          "oneTickPerBin": false,
+          "filters": [],
+          "isA": "dimension",
+          "possibleSorts": [
+            {
+              "type": "NATURAL",
+              "label": "Natural ordering",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of sensor_3, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 0,
+              "label": "Average of sensor_3, ascending",
+              "sortAscending": true
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Average of w10_cycles_sensor_3_avg, descending"
+            },
+            {
+              "type": "AGGREGATION",
+              "measureIdx": 1,
+              "label": "Average of w10_cycles_sensor_3_avg, ascending",
+              "sortAscending": true
+            }
+          ],
+          "sort": {
+            "type": "NATURAL",
+            "label": "Natural ordering",
+            "sortAscending": true
+          }
+        }
+      ],
+      "genericDimension1": [],
+      "facetDimension": [],
+      "animationDimension": [],
+      "genericMeasures": [
+        {
+          "column": "sensor_3",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        },
+        {
+          "column": "w10_cycles_sensor_3_avg",
+          "function": "AVG",
+          "type": "NUMERICAL",
+          "displayed": true,
+          "isA": "measure",
+          "displayAxis": "axis1",
+          "displayType": "column",
+          "computeMode": "NORMAL",
+          "computeModeDim": 0
+        }
+      ],
+      "xDimension": [],
+      "yDimension": [],
+      "uaXDimension": [],
+      "uaYDimension": [],
+      "uaSize": [],
+      "uaShape": [],
+      "uaColor": [],
+      "uaTooltip": [],
+      "groupDimension": [],
+      "xMeasure": [],
+      "yMeasure": [],
+      "colorMeasure": [],
+      "sizeMeasure": [],
+      "geometry": [],
+      "tooltipMeasures": [],
+      "boxplotBreakdownDim": [],
+      "boxplotValue": [],
+      "filters": [],
+      "axis1LogScale": false,
+      "axis2LogScale": false,
+      "includeZero": false,
+      "smoothing": true,
+      "showLegend": true,
+      "showXAxis": false,
+      "showInChartValues": false,
+      "showInChartLabels": true,
+      "strokeWidth": 1,
+      "fillOpacity": 0.6,
+      "showXAxisLabel": true,
+      "showYAxisLabel": true,
+      "hexbinRadius": 20,
+      "hexbinNumber": 20,
+      "hexbinRadiusMode": "NUM_HEXAGONS",
+      "chartHeight": 200,
+      "singleXAxis": true,
+      "multiTooltips": false,
+      "animationFrameDuration": 3000,
+      "animationRepeat": true,
+      "colorOptions": {
+        "singleColor": "#2678B1",
+        "transparency": 0.75,
+        "colorPalette": "dku_dss_next",
+        "ccScaleMode": "NORMAL",
+        "customPalette": {
+          "id": "__dku_custom__",
+          "name": "Custom Palette",
+          "colors": [],
+          "values": [],
+          "fixedValues": false
+        },
+        "paletteType": "CONTINUOUS",
+        "quantizationMode": "NONE",
+        "numQuantizeSteps": 5,
+        "paletteMiddleValue": 0.0
+      },
+      "bubblesOptions": {
+        "defaultRadius": 5.0,
+        "singleShape": "FILLED_CIRCLE"
+      },
+      "computeMode": "NORMAL",
+      "xAxisMode": "NORMAL",
+      "yAxisMode": "NORMAL",
+      "pieOptions": {
+        "donutHoleSize": 54.0
+      },
+      "scatterOptions": {
+        "equalScales": false,
+        "identityLine": false
+      },
+      "mapOptions": {
+        "tilesLayer": "cartodb-positron",
+        "lockSquareGrid": false
+      },
+      "mapGridOptions": {
+        "gridLonDeg": 0.5,
+        "gridLatDeg": 0.5
+      },
+      "thumbnailData": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAoCAYAAACiu5n/AAAAAXNSR0IArs4c6QAAAt1JREFUaEPt121I1HAcB/DvToKgN2EPmBUhd9tCIgmUNMnLHt8Iue0wKCwhMVIw41TEyEjhCPV68IVRCGlCUe1BwTdWZndkCPnGCHHbHRIFRUQIERiUF55o5uXpeVNvm3s1/k98P/z++28jYLKLMJkXq2CjV3y1woaosKA8A0cd+Z/FmBXmR3bCkTRsHvDjQBzyiN/mAQcCFhDEuJnABAgiYB5wmJPXmIeWacCCnA+Obg/3atV/hSWlEgxVH0TySgMcVMXN/kO7y9J73hrzGRbVdrBkfhAnqVYwpD94L/oeureeu+Lc26PMhOu/woJcDY52hVSzd2QtspPGZrfrH9zpT8Vx6wBEXwNYW8VsYGpXa9FATsHdqXb9g4WhLeCSP02A3K/trrg1lraytF55Gi4oTeCoUv2AeeUCHNStkC078TUl+Z+AtXH/9HWoycglh6bbRN8DsLaT+gHP1Ei+WuD7dTB7RunOzkT5p3UMebu+YaKdsdVMHlZqDViy9i9YtYMlPbEP5v0kHFZ1zneqoNwAR10M6RfUF+DIg3PN08czLCj3YLG8A2Nzu/vs552ZntsI88+rrw8PUbkEEPHuhLMJzn3eUzPDN/bZi8szPc2TW1dOAUsPhsNBUgrAUK3Geg+HFYd2xtyWbuo/sK00/eXHCB0LHh4T4B1d3c3vc44VLzh1FANXFiwodY2JhfHlGd6SKAwRTV1ZcIdvO3JtHyJKHOXglQGLagYwHgeWfhVl/oinLz9YkNPA0W8iTqrRhOUFSyPrwSSNapR9UcssG9jx/LKfP1xnXVRKDSdpB74/uA6nU35omG1JltIOzMsl2EDdQTbxa0mSarSoJmCXd/+m6i8taSCIzRvxufsrlxX8IY/Fa2FgYTjbnVCU5cz0Xq30nGiptz8qhKS6EIAFLFkVi7C5Ms0P5uUqOOhrENWnYMmjwYVE+QxYuk1P0Kms84P1qAqTeRVssIKGcP4AxFzLKQvG1ToAAAAASUVORK5CYII\u003d",
+      "disableSafetyLimits": false,
+      "useLiveProcessingIfAvailable": true,
+      "legendPlacement": "OUTER_RIGHT"
+    },
+    "maxDataBytes": 157286400
+  },
+  "owner": "nanae",
+  "listed": false,
+  "name": "Avg. of sensor_3 by Nb_Cycles on histo_FD001_RUL_features",
+  "dashboardCreationId": "qvfLhv0",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1628648531702
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "nanae"
+    },
+    "lastModifiedOn": 1628648531702
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
