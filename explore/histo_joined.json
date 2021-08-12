@@ -5,7 +5,34 @@
     "columnsSelection": {
       "mode": "ALL"
     },
-    "columnWidthsByName": {},
+    "columnWidthsByName": {
+      "unit_id": 100,
+      "time": 127,
+      "sensor_1": 106,
+      "sensor_2": 100,
+      "sensor_3": 106,
+      "sensor_4": 106,
+      "sensor_5": 100,
+      "sensor_6": 100,
+      "sensor_7": 100,
+      "sensor_8": 106,
+      "sensor_9": 106,
+      "sensor_10": 100,
+      "sensor_11": 100,
+      "sensor_12": 100,
+      "sensor_13": 113,
+      "sensor_14": 113,
+      "sensor_15": 100,
+      "sensor_16": 100,
+      "sensor_17": 100,
+      "sensor_18": 100,
+      "sensor_19": 100,
+      "sensor_20": 100,
+      "sensor_21": 113,
+      "setting_1": 113,
+      "setting_2": 113,
+      "setting_3": 100
+    },
     "coloring": {
       "scheme": "MEANING_AND_STATUS",
       "individualColumns": [],
@@ -40,7 +67,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS"
@@ -117,6 +146,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
