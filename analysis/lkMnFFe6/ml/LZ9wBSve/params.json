@@ -1199,27 +1199,6 @@
         "customProcessorWantsMatrix": false,
         "sendToInput": "main"
       },
-      "Nb_Cycles_before_failure": {
-        "generate_derivative": false,
-        "numerical_handling": "REGULAR",
-        "missing_handling": "IMPUTE",
-        "missing_impute_with": "MEAN",
-        "impute_constant_value": 0.0,
-        "rescaling": "AVGSTD",
-        "quantile_bin_nb_bins": 4,
-        "binarize_threshold_mode": "MEDIAN",
-        "binarize_constant_threshold": 0.0,
-        "role": "REJECT",
-        "type": "NUMERIC",
-        "state": {
-          "userModified": false,
-          "autoModifiedByDSS": false,
-          "recordedMeaning": "DoubleMeaning"
-        },
-        "customHandlingCode": "",
-        "customProcessorWantsMatrix": false,
-        "sendToInput": "main"
-      },
       "pct_to_min_sensor_6": {
         "generate_derivative": false,
         "numerical_handling": "REGULAR",
@@ -4091,6 +4070,7 @@
           "defaultRadius": 5.0,
           "singleShape": "FILLED_CIRCLE"
         },
+        "computeMode": "NORMAL",
         "xAxisMode": "NORMAL",
         "yAxisMode": "NORMAL",
         "pieOptions": {
