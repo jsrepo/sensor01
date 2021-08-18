@@ -9,7 +9,6 @@
     },
     "nbProcesses": 1,
     "serveLocally": true,
-    "runAs": "admin",
     "infra": {
       "containerSelection": {
         "containerMode": "EXPLICIT_CONTAINER",
@@ -21,7 +20,7 @@
         "params": {}
       },
       "scaling": {
-        "initialReplicas": 1,
+        "initialReplicas": 2,
         "hpa": false,
         "hpaTargetCPUPercent": 0,
         "hpaMetrics": [],
@@ -38,11 +37,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629253684595
+    "lastModifiedOn": 1629253857788
   },
   "creationTag": {
     "versionNumber": 0,
