@@ -12,7 +12,7 @@
     "runAs": "admin",
     "infra": {
       "containerSelection": {
-        "containerMode": "EXPLICIT_CONTAINER",
+        "containerMode": "NONE",
         "containerConf": "apac-eks-small"
       },
       "overrideGlobalK8sExposition": false,
@@ -38,11 +38,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629253414958
+    "lastModifiedOn": 1629253636134
   },
   "creationTag": {
     "versionNumber": 0,
