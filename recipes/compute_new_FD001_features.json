@@ -41,11 +41,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629196636489
+    "lastModifiedOn": 1629245053999
   },
   "creationTag": {
     "versionNumber": 0,
@@ -54,6 +54,7 @@
     },
     "lastModifiedOn": 1626832055285
   },
+  "shortDesc": "Running on container\n",
   "tags": [
     "モデルの適用"
   ],
