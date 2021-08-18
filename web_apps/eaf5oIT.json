@@ -9,6 +9,7 @@
     },
     "nbProcesses": 1,
     "serveLocally": true,
+    "runAs": "admin",
     "infra": {
       "containerSelection": {
         "containerMode": "EXPLICIT_CONTAINER",
@@ -37,11 +38,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629252542073
+    "lastModifiedOn": 1629252601464
   },
   "creationTag": {
     "versionNumber": 0,
