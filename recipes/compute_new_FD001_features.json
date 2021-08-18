@@ -4,11 +4,12 @@
   "optionalDependencies": false,
   "params": {
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "baseP37-GPU"
     },
     "containerSelection": {
       "containerMode": "EXPLICIT_CONTAINER",
-      "containerConf": "apac-eks-small"
+      "containerConf": "apac-eks-gpu-single"
     },
     "skipPrerunValidate": false
   },
@@ -41,11 +42,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 7,
+    "versionNumber": 8,
     "lastModifiedBy": {
-      "login": "nanae.admin"
+      "login": "admin"
     },
-    "lastModifiedOn": 1629248415839
+    "lastModifiedOn": 1629249493784
   },
   "creationTag": {
     "versionNumber": 0,
