@@ -3936,10 +3936,12 @@
   "backendType": "PY_MEMORY",
   "maxConcurrentModelTraining": 2,
   "envSelection": {
-    "envMode": "USE_BUILTIN_MODE"
+    "envMode": "EXPLICIT_ENV",
+    "envName": "baseP37"
   },
   "containerSelection": {
-    "containerMode": "INHERIT"
+    "containerMode": "EXPLICIT_CONTAINER",
+    "containerConf": "apac-eks-small"
   },
   "sparkParams": {
     "sparkConf": {
