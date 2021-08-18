@@ -3876,7 +3876,7 @@
       "timeout": 0,
       "nJobs": 4,
       "distributed": true,
-      "nContainers": 4
+      "nContainers": 2
     },
     "metrics": {
       "evaluationMetric": "ROC_AUC",
