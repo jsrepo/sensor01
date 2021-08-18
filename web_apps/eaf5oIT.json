@@ -4,13 +4,15 @@
   "params": {
     "autoStartBackend": false,
     "envSelection": {
-      "envMode": "INHERIT"
+      "envMode": "EXPLICIT_ENV",
+      "envName": "dash"
     },
     "nbProcesses": 1,
     "serveLocally": true,
     "infra": {
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "EXPLICIT_CONTAINER",
+        "containerConf": "apac-eks-small"
       },
       "overrideGlobalK8sExposition": false,
       "exposition": {
@@ -18,7 +20,7 @@
         "params": {}
       },
       "scaling": {
-        "initialReplicas": 1,
+        "initialReplicas": 2,
         "hpa": false,
         "hpaTargetCPUPercent": 0,
         "hpaMetrics": [],
@@ -26,18 +28,20 @@
         "hpaMaxPods": 0,
         "hpaAnnotations": []
       },
-      "deploymentModifier": {}
+      "deploymentModifier": {
+        "config": {}
+      }
     },
     "forceAuthentication": false
   },
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629250210556
+    "lastModifiedOn": 1629250234099
   },
   "creationTag": {
     "versionNumber": 0,
