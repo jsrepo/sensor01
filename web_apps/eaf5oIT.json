@@ -12,7 +12,7 @@
     "runAs": "admin",
     "infra": {
       "containerSelection": {
-        "containerMode": "NONE",
+        "containerMode": "EXPLICIT_CONTAINER",
         "containerConf": "apac-eks-small"
       },
       "overrideGlobalK8sExposition": false,
@@ -21,7 +21,7 @@
         "params": {}
       },
       "scaling": {
-        "initialReplicas": 2,
+        "initialReplicas": 1,
         "hpa": false,
         "hpaTargetCPUPercent": 0,
         "hpaMetrics": [],
@@ -38,11 +38,11 @@
   "config": {},
   "name": "test",
   "versionTag": {
-    "versionNumber": 6,
+    "versionNumber": 7,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629253636134
+    "lastModifiedOn": 1629253684595
   },
   "creationTag": {
     "versionNumber": 0,
