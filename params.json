@@ -186,7 +186,7 @@
       }
     }
   },
-  "name": "エンジンの故障予測",
+  "name": "エンジンの故障予測 (js-addon)",
   "imgPattern": 7,
   "showInitials": false,
   "metrics": {
@@ -244,11 +244,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 29,
+    "versionNumber": 30,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629429453162
+    "lastModifiedOn": 1629429456300
   },
   "creationTag": {
     "versionNumber": 0,
@@ -258,7 +258,7 @@
     "lastModifiedOn": 1626820956393
   },
   "description": "#  **センサーデータを用いたエンジンの故障予測** \n\nこのプロジェクトは、製造プロセスの障害予測を実施しています。\n障害を予測できると、保守計画を再考できます。\n\n入力データ：\n- エンジンに設置してある21のセンサーデータが含まれます。\n- センサーは30分ごとにデータを取得します（これをサイクルと呼びます）。\n- エンジンが故障すると、センサーからのデータ送信は止まります。\n- エンジン情報のデータも含まれます。\n\nプロジェクトの概要：\n- センサーデータやエンジン情報を収集します。\n- データを加工して、予測に使用できるデータを作成します。\n- 予測モデルを構築します。\n- 予測モデルを新しいデータに適用します。\n- 障害発生時に影響のあるビジネスユーザーに結果を共有",
-  "shortDesc": "The project was created by Nanae for Japanese demo. It is almost same as \"Sensors and Failures\" project.",
+  "shortDesc": "The project was created by Nanae for Japanese demo. It is almost same as \"Sensors and Failures\" project.\nThe project *_JS_ADDON* was copied from *NANAE_SENSORANDFAILURES* by admin지성 on Aug 20th 2021",
   "tags": [
     "Country:Japan",
     "demo",
