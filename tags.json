@@ -6,27 +6,30 @@
     "モデルの適用": {
       "color": "#94be8e"
     },
-    "checks": {
-      "color": "#77bec2"
-    },
+    "charts": {},
+    "design_sandbox": {},
+    "recipe-editor": {},
+    "Demo Input Data": {},
+    "Deep Dive Demo": {},
     "manufaturing": {
       "color": "#77bec2"
     },
+    "demo": {
+      "color": "#94be8e"
+    },
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "checks": {
+      "color": "#77bec2"
+    },
+    "deleted-recipe-editor": {},
+    "origin:sql_import": {},
     "Country:Japan": {
       "color": "#eb1e4f"
     },
     "metrics": {
       "color": "#94be8e"
-    },
-    "demo": {
-      "color": "#94be8e"
-    },
-    "charts": {},
-    "recipe-editor": {},
-    "deleted-recipe-editor": {},
-    "Deep Dive Demo": {},
-    "Demo Input Data": {},
-    "origin:sql_import": {},
-    "design_sandbox": {}
+    }
   }
 }

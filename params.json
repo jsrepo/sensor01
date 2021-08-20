@@ -57,7 +57,7 @@
       "shareAllInputDatasets": false
     }
   },
-  "owner": "nanae",
+  "owner": "admin",
   "permissions": [
     {
       "user": "judy",
@@ -187,7 +187,6 @@
     }
   },
   "name": "エンジンの故障予測",
-  "projectStatus": "Sandbox",
   "imgPattern": 7,
   "showInitials": false,
   "metrics": {
@@ -245,11 +244,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 28,
+    "versionNumber": 29,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1629423740433
+    "lastModifiedOn": 1629429453162
   },
   "creationTag": {
     "versionNumber": 0,
@@ -263,7 +262,8 @@
   "tags": [
     "Country:Japan",
     "demo",
-    "manufaturing"
+    "manufaturing",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
